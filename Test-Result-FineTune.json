@@ -1,0 +1,587 @@
+[
+    {
+        "pertanyaan": "Mohon sebutkan jenis Dokumen Hukum yang termasuk dalam sistem pengelolaan JDIH Kemenkes.",
+        "jawaban_asli": "<think>\n\n</think>\n\nJenis Dokumen Hukum yang termasuk dalam pengelolaan JDIH Kemenkes adalah Peraturan Perundang-undangan, produk hukum lain, monografi, artikel hukum, dan putusan/yurisprudensi, sebagaimana dinyatakan dalam Pasal 8 ayat (1).",
+        "jawaban_model": "<think>\n\n</think>\n\nJenis Dokumen Hukum yang dikelola meliputi Peraturan Perundang-undangan, produk hukum lain, monografi, artikel hukum, dan putusan/yurisprudensi. Dasar pengelolaan ini tercantum dalam Pasal 8 ayat (3)."
+    },
+    {
+        "pertanyaan": "Apa isi atau bunyi Pasal 7?",
+        "jawaban_asli": "<think>\n\n</think>\n\nPasal 7\n\n(1) Sebagai pendukung pengelolaan dokumentasi dan Informasi Hukum sebagaimana diatur dalam Pasal 6, dibentuk tim teknis JDIH Kemenkes.\n\n(2) Tim teknis JDIH Kemenkes sebagaimana dimaksud pada ayat (1) dibentuk dari unsur pusat JDIH Kemenkes, anggota JDIH Kemenkes, dan Pusat Data dan Teknologi Informasi.\n\n(3) Dalam melaksanakan pengelolaan dokumentasi dan Informasi Hukum tersebut, tim teknis dapat melibatkan Pusat JDIHN dan/atau kementerian/lembaga yang berkaitan.\n\n(4) Penetapan tim teknis JDIH Kemenkes sebagaimana dimaksud pada ayat (1) dilakukan dengan Keputusan Sekretaris Jenderal.",
+        "jawaban_model": "<think>\n\n</think>\n\nPasal 7\n\n(1) Untuk mendukung pengelolaan dokumentasi dan Informasi Hukum sebagaimana dimaksud dalam Pasal 6, dibentuk tim teknis JDIH Kemenkes.\n\n(2) Tim teknis JDIH Kemenkes tersebut terdiri atas unsur pusat JDIH Kemenkes, anggota JDIH Kemenkes, serta Pusat Data dan Teknologi Informasi.\n\n(3) Dalam pengelolaan dokumentasi dan Informasi Hukum sebagaimana dimaksud pada ayat (1), tim teknis dapat melibatkan Pusat JDIHN dan/atau kementerian/lembaga terkait.\n\n(4) Tim teknis JDIH Kemenkes sebagaimana dimaksud pada ayat (1) ditetapkan berdasarkan Keputusan Sekretaris Jenderal."
+    },
+    {
+        "pertanyaan": "Siapa yang melaksanakan fungsi monitoring dan evaluasi di lingkungan JDIH Kemenkes menurut ketentuan yang berlaku?",
+        "jawaban_asli": "<think>\n\n</think>\n\nMenurut ketentuan Pasal 9 ayat (1), fungsi monitoring dan evaluasi dilaksanakan oleh Pusat JDIH Kemenkes.",
+        "jawaban_model": "<think>\n\n</think>\n\nPusat JDIH Kemenkes melaksanakan fungsi monitoring dan evaluasi tersebut, sebagaimana dinyatakan dalam Pasal 9 ayat (2)."
+    },
+    {
+        "pertanyaan": "Pihak mana yang melaksanakan monitoring serta evaluasi di lingkungan JDIH Kemenkes?",
+        "jawaban_asli": "<think>\n\n</think>\n\nMonitoring dan evaluasi tersebut dilakukan oleh Pusat JDIH Kemenkes sebagaimana diatur dalam Pasal 9 ayat (1).",
+        "jawaban_model": "<think>\n\n</think>\n\nPusat JDIH Kemenkes melaksanakan monitoring dan evaluasi tersebut, sebagaimana diatur dalam Pasal 9 ayat (1)."
+    },
+    {
+        "pertanyaan": "Dengan cara apa JDIH Kemenkes melakukan penataan terhadap dokumentasi dan Informasi Hukum?",
+        "jawaban_asli": "<think>\n\n</think>\n\nMenurut ketentuan Pasal 2 huruf b, penataan dokumentasi dan Informasi Hukum dilakukan melalui penggunaan teknologi informasi dan komunikasi.",
+        "jawaban_model": "<think>\n\n</think>\n\nJDIH Kemenkes melakukan penataan dokumentasi dan Informasi Hukum melalui pemanfaatan teknologi informasi dan komunikasi. Hal ini tercantum dalam Pasal 2 huruf b."
+    },
+    {
+        "pertanyaan": "Kapan dan seberapa sering laporan penyelenggaraan JDIH Kemenkes harus disampaikan?",
+        "jawaban_asli": "<think>\n\n</think>\n\nPasal 4 ayat (2) huruf h mengatur bahwa laporan penyelenggaraan JDIH Kemenkes disampaikan secara periodik setiap tahun pada bulan Desember.",
+        "jawaban_model": "<think>\n\n</think>\n\nLaporan penyelenggaraan JDIH Kemenkes harus disampaikan secara periodik setiap tahun pada bulan Desember. Ketentuan ini tercantum dalam Pasal 4 ayat (2) huruf h."
+    },
+    {
+        "pertanyaan": "Sebutkan jenis-jenis Peraturan Perundang-undangan yang dikelola oleh JDIH Kemenkes.",
+        "jawaban_asli": "<think>\n\n</think>\n\nJenis-jenis Peraturan Perundang-undangan yang dikelola oleh JDIH Kemenkes sebagaimana diatur dalam Pasal 8 ayat (2) adalah: a. undang-undang; b. peraturan pemerintah pengganti undang-undang; c. peraturan pemerintah; d. peraturan presiden; e. peraturan menteri; serta f. Peraturan Perundang-undangan dalam terjemahan bahasa asing.",
+        "jawaban_model": "<think>\n\n</think>\n\nJenis Peraturan Perundang-undangan yang dikelola meliputi: a. undang-undang; b. peraturan pemerintah pengganti undang-undang; c. peraturan pemerintah; d. peraturan presiden; e. peraturan menteri; dan f. Peraturan Perundang-undangan yang diterjemahkan ke dalam bahasa asing. Dasar pengelompokan ini tercantum dalam Pasal 8 ayat (3)."
+    },
+    {
+        "pertanyaan": "Siapa yang bertanggung jawab mengelola dokumentasi dan Informasi Hukum dalam lingkungan JDIH Kemenkes?",
+        "jawaban_asli": "<think>\n\n</think>\n\nPengelolaan dokumentasi dan Informasi Hukum dilaksanakan oleh Pusat JDIH Kemenkes bersama anggota JDIH Kemenkes, sebagaimana ditetapkan dalam Pasal 6 ayat (1).",
+        "jawaban_model": "<think>\n\n</think>\n\nPusat JDIH Kemenkes dan seluruh anggota JDIH Kemenkes bertanggung jawab atas pengelolaan dokumentasi dan Informasi Hukum berdasarkan ketentuan Pasal 6 ayat (1)."
+    },
+    {
+        "pertanyaan": "Apa syarat bidang perkara dan status hukum putusan yang termasuk dalam dokumen putusan atau yurisprudensi JDIH Kemenkes?",
+        "jawaban_asli": "<think>\n\n</think>\n\nPutusan tersebut harus merupakan putusan dalam bidang kesehatan atau terkait dengan kesehatan, diterbitkan oleh pengadilan, dan telah berkekuatan hukum tetap. Ketentuan ini terdapat dalam Pasal 8 ayat (9).",
+        "jawaban_model": "<think>\n\n</think>\n\nSyaratnya adalah perkara tersebut berkaitan dengan bidang kesehatan atau memiliki keterkaitan dengan kesehatan, putusan telah berkekuatan hukum tetap, serta putusan tersebut dikeluarkan oleh pengadilan. Ketentuan ini tercantum dalam Pasal 8 ayat (8)."
+    },
+    {
+        "pertanyaan": "Mohon jelaskan isi Pasal 2 mengenai tujuan JDIH Kemenkes.",
+        "jawaban_asli": "<think>\n\n</think>\n\nPasal 2\n\nJDIH Kemenkes memiliki tujuan sebagai berikut:\n\na. mewujudkan ketertiban administrasi dalam proses pengumpulan, pengelolaan, penyimpanan, pelestarian, serta publikasi Dokumen Hukum;\n\nb. menata dokumentasi dan Informasi Hukum dengan memanfaatkan teknologi informasi dan komunikasi; dan\n\nc. menyediakan dokumentasi serta Informasi Hukum di bidang kesehatan secara lengkap, akurat, mudah diakses, dan cepat.",
+        "jawaban_model": "<think>\n\n</think>\n\nPasal 2\n\nJDIH Kemenkes bertujuan untuk:\n\na. mewujudkan tertib administrasi dalam kegiatan pengumpulan, pengelolaan, penyimpanan, pelestarian, dan publikasi Dokumen Hukum;\n\nb. menyediakan dokumentasi dan Informasi Hukum di bidang kesehatan secara lengkap, akurat, mudah diakses, dan cepat; dan\n\nc. membangun kesadaran masyarakat terhadap pentingnya dokumentasi dan Informasi Hukum di bidang kesehatan."
+    },
+    {
+        "pertanyaan": "Apakah JDIH Kemenkes mencakup dokumen Peraturan Perundang-Undangan serta produk hukum lain yang diterjemahkan ke bahasa asing?",
+        "jawaban_asli": "<think>\n\n</think>\n\nYa. Peraturan Perundang-Undangan yang diterjemahkan ke dalam bahasa asing tercakup sebagai kategori Peraturan Perundang-undangan menurut Pasal 8 ayat (2) huruf f. Produk hukum lain dalam bahasa asing juga tercakup sebagai kategori produk hukum lain sesuai Pasal 8 ayat (3) huruf i.",
+        "jawaban_model": "<think>\n\n</think>\n\nYa. Peraturan Perundang-Undangan yang diterjemahkan ke dalam bahasa asing termasuk dalam kategori Peraturan Perundang-undangan berdasarkan Pasal 8 ayat (2) huruf f. Produk hukum lain yang diterjemahkan ke dalam bahasa asing termasuk dalam kategori produk hukum lain berdasarkan Pasal 8 ayat (3) huruf i."
+    },
+    {
+        "pertanyaan": "Apakah pengelolaan dokumentasi dan informasi hukum oleh tim teknis JDIH Kemenkes dapat melibatkan pihak eksternal?",
+        "jawaban_asli": "<think>\n\n</think>\n\nYa, pihak eksternal yang dapat dilibatkan meliputi Pusat JDIHN dan/atau kementerian/lembaga terkait. Hal ini diatur dalam Pasal 7 ayat (3).",
+        "jawaban_model": "<think>\n\n</think>\n\nYa. Pasal 7 ayat (3) menegaskan bahwa tim teknis dapat melibatkan Pusat JDIHN dan/atau kementerian/lembaga terkait dalam pengelolaan dokumentasi dan informasi hukum."
+    },
+    {
+        "pertanyaan": "Di mana dan kapan Peraturan Menteri ini ditetapkan?",
+        "jawaban_asli": "<think>\n\n</think>\n\nPeraturan Menteri ini ditetapkan di Jakarta pada 2 Agustus 2024, sebagaimana dinyatakan dalam bagian penutup setelah Pasal 11.",
+        "jawaban_model": "<think>\n\n</think>\n\nPeraturan Menteri ini ditetapkan di Jakarta pada 2 Agustus 2024, sebagaimana dinyatakan pada bagian penutup setelah Pasal 11."
+    },
+    {
+        "pertanyaan": "Dokumen apa saja yang termasuk dalam kategori Dokumen Hukum?",
+        "jawaban_asli": "<think>\n\n</think>\n\nSesuai dengan Pasal 1 angka 3, kategori Dokumen Hukum mencakup peraturan perundang-undangan dan berbagai produk hukum lainnya. Produk hukum lainnya tersebut meliputi, namun tidak terbatas pada, putusan pengadilan, yurisprudensi, monografi hukum, artikel majalah hukum, buku hukum, penelitian hukum, pengkajian hukum, naskah akademis, serta rancangan peraturan perundang-undangan.",
+        "jawaban_model": "<think>\n\n</think>\n\nKategori Dokumen Hukum mencakup Peraturan Perundang-undangan, produk hukum lain, monografi hukum, artikel hukum, dan putusan/yurisprudensi. Hal ini tercantum dalam Pasal 1 angka 3."
+    },
+    {
+        "pertanyaan": "Apa saja kategori Dokumen Hukum yang dikelola oleh JDIH Kemenkes?",
+        "jawaban_asli": "<think>\n\n</think>\n\nJDIH Kemenkes mengelola beberapa kategori Dokumen Hukum, yaitu Peraturan Perundang-undangan, produk hukum lainnya, monografi, artikel hukum, serta putusan atau yurisprudensi, sebagaimana diatur dalam Pasal 8 ayat (1).",
+        "jawaban_model": "<think>\n\n</think>\n\nKategori Dokumen Hukum yang dikelola meliputi Peraturan Perundang-undangan, produk hukum lain, monografi, artikel hukum, dan putusan/yurisprudensi. Dasar pengelompokkannya tercantum dalam Pasal 8 ayat (3)."
+    },
+    {
+        "pertanyaan": "Tolong jelaskan ketentuan hukum dalam Pasal 4 mengenai tugas serta fungsi Pusat JDIH Kemenkes tanpa mengurangi rinciannya.",
+        "jawaban_asli": "<think>\n\n</think>\n\nPasal 4\n\n(1) Pusat JDIH Kemenkes sebagaimana dimaksud dalam Pasal 3 ayat (2) huruf a memiliki tugas sebagai berikut:\n\na. merumuskan kebijakan yang berkaitan dengan pembinaan, pengelolaan, dan pengembangan JDIH Kemenkes;\n\nb. memberikan rujukan untuk dokumentasi dan Informasi Hukum Kementerian Kesehatan; dan\n\nc. mengelola Dokumen Hukum serta Informasi Hukum yang diterbitkan oleh unit kerja selain unit kerja Eselon I anggota JDIH Kemenkes.\n\n(2) Dalam melaksanakan tugas tersebut, Pusat JDIH Kemenkes melaksanakan fungsi:\n\na. memberikan pelayanan konsultasi terhadap permasalahan yang dihadapi Anggota JDIH Kemenkes;\n\nb. melakukan sosialisasi kebijakan dan pengelolaan teknis dokumentasi serta Informasi Hukum kepada Anggota JDIH Kemenkes;\n\nc. menyelenggarakan pembinaan dan pengembangan sumber daya manusia pengelola JDIH Kemenkes;\n\nd. menyediakan sarana dan prasarana yang mendukung pengelolaan JDIH Kemenkes;\n\ne. melaksanakan kerja sama dengan Pusat JDIHN;\n\nf. menyelenggarakan pengelolaan JDIH Kemenkes berbasis elektronik melalui pemanfaatan teknologi informasi dan komunikasi;\n\ng. melaksanakan monitoring dan evaluasi; dan\n\nh. menyampaikan laporan penyelenggaraan JDIH Kemenkes kepada: 1) Menteri melalui Sekretaris Jenderal; dan 2) pusat JDIHN, secara periodik setiap tahun pada bulan Desember.",
+        "jawaban_model": "<think>\n\n</think>\n\nPasal 4\n\n(1) Pusat JDIH Kemenkes sebagaimana dimaksud dalam Pasal 3 ayat (2) huruf a bertugas merumuskan kebijakan pembinaan, pengelolaan, dan pengembangan JDIH Kemenkes; memberikan rujukan dokumentasi dan Informasi Hukum Kementerian Kesehatan; serta mengelola Dokumen Hukum dan Informasi Hukum yang diterbitkan oleh unit kerja selain unit kerja Eselon I anggota JDIH Kemenkes.\n\n(2) Untuk mendukung tugas tersebut, Pusat JDIH Kemenkes berfungsi menyediakan layanan konsultasi atas permasalahan yang dihadapi Anggota JDIH Kemenkes; menyosialisasikan kebijakan dan teknis pengelolaan dokumentasi serta Informasi Hukum kepada Anggota JDIH Kemenkes; membina dan mengembangkan sumber daya manusia pengelola JDIH Kemenkes; menyiapkan sarana dan prasarana pendukung; bekerja sama dengan Pusat JDIHN; mengelola JDIH Kemenkes secara elektronik dengan memanfaatkan teknologi informasi dan komunikasi; melakukan monitoring dan evaluasi; serta menyampaikan laporan penyelenggaraan JDIH Kemenkes kepada Menteri melalui Sekretaris Jenderal dan Pusat JDIHN setiap tahun secara periodik pada bulan Desember."
+    },
+    {
+        "pertanyaan": "Bisa Anda menyebutkan ketentuan hukum dalam Pasal 8 ayat (6)?",
+        "jawaban_asli": "<think>\n\n</think>\n\nKetentuan hukum yang tercantum dalam Pasal 8 ayat (6) adalah:\n\n(6) Rancangan Peraturan Perundang-Undangan dan produk hukum lain sebagaimana dimaksud pada ayat (5) huruf d merupakan rancangan Peraturan Perundang-Undangan dan produk hukum lain yang membutuhkan masukan, tanggapan, atau partisipasi masyarakat baik dalam tahap penyusunan maupun pembahasan.",
+        "jawaban_model": "<think>\n\n</think>\n\nKetentuan hukum dalam Pasal 8 ayat (6) adalah sebagai berikut: (6) Rancangan Peraturan Perundang-Undangan dan produk hukum lain sebagaimana dimaksud pada ayat (5) huruf d merupakan rancangan Peraturan Perundang-Undangan dan produk hukum lain yang membutuhkan masukan, tanggapan, atau partisipasi masyarakat baik dalam tahap penyusunan maupun pembahasan."
+    },
+    {
+        "pertanyaan": "Siapa yang ditetapkan untuk melaksanakan pengelolaan dokumentasi dan Informasi Hukum dalam JDIH Kemenkes?",
+        "jawaban_asli": "<think>\n\n</think>\n\nPihak yang ditetapkan untuk melaksanakan pengelolaan tersebut ialah Pusat JDIH Kemenkes dan anggota JDIH Kemenkes, sebagaimana tercantum dalam Pasal 6 ayat (1).",
+        "jawaban_model": "<think>\n\n</think>\n\nPusat JDIH Kemenkes dan para anggota JDIH Kemenkes ditetapkan sebagai pihak yang melaksanakan pengelolaan dokumentasi dan Informasi Hukum berdasarkan Pasal 6 ayat (1)."
+    },
+    {
+        "pertanyaan": "Bagaimana pengertian Menteri dalam peraturan ini?",
+        "jawaban_asli": "<think>\n\n</think>\n\nDalam peraturan ini, Menteri diartikan sebagai Menteri yang menyelenggarakan urusan pemerintahan di bidang kesehatan, sebagaimana dinyatakan dalam Pasal 1 angka 7.",
+        "jawaban_model": "<think>\n\n</think>\n\nDalam peraturan ini, Menteri berarti Menteri yang menyelenggarakan urusan pemerintahan di bidang kesehatan, sesuai dengan ketentuan Pasal 1 angka 7."
+    },
+    {
+        "pertanyaan": "Bagaimana ketentuan mengenai sumber pendanaan dalam pelaksanaan pengelolaan JDIH Kemenkes?",
+        "jawaban_asli": "<think>\n\n</think>\n\nPasal 10 mengatur bahwa pendanaan pelaksanaan pengelolaan JDIH Kemenkes berasal dari anggaran pendapatan dan belanja negara dan/atau sumber lain yang sah sesuai dengan peraturan perundang-undangan.",
+        "jawaban_model": "<think>\n\n</think>\n\nSesuai dengan Pasal 10, sumber pendanaan pelaksanaan pengelolaan JDIH Kemenkes berasal dari anggaran pendapatan dan belanja negara dan/atau sumber lain yang sah sesuai dengan ketentuan peraturan perundang-undangan."
+    },
+    {
+        "pertanyaan": "Siapa saja yang melakukan pengelolaan atas dokumentasi dan Informasi Hukum di JDIH Kemenkes?",
+        "jawaban_asli": "<think>\n\n</think>\n\nPengelolaan tersebut dilakukan oleh Pusat JDIH Kemenkes dan anggota JDIH Kemenkes, sebagaimana dimaksud dalam Pasal 6 ayat (1).",
+        "jawaban_model": "<think>\n\n</think>\n\nPusat JDIH Kemenkes dan anggota JDIH Kemenkes melakukan pengelolaan dokumentasi dan Informasi Hukum berdasarkan ketentuan Pasal 6 ayat (1)."
+    },
+    {
+        "pertanyaan": "Apakah rancangan produk hukum yang pada tahap pembahasan masih memerlukan masukan dari masyarakat dapat dikategorikan sebagai monografi?",
+        "jawaban_asli": "<think>\n\n</think>\n\nYa. Pasal 8 ayat (5) menggolongkan rancangan Peraturan Perundang-Undangan dan produk hukum lainnya sebagai monografi. Selanjutnya, Pasal 8 ayat (6) menyatakan bahwa rancangan tersebut memerlukan masukan, tanggapan, atau partisipasi masyarakat, baik pada tahap penyusunan maupun pembahasan.",
+        "jawaban_model": "<think>\n\n</think>\n\nYa. Pasal 8 ayat (3) huruf d menyebutkan bahwa rancangan Peraturan Perundang-Undangan dan produk hukum lain termasuk monografi. Adapun Pasal 8 ayat (4) huruf e menegaskan bahwa rancangan tersebut memerlukan masukan, tanggapan, atau partisipasi masyarakat dalam proses penyusunan maupun pembahasan."
+    },
+    {
+        "pertanyaan": "Apa saja fungsi Pusat JDIH Kemenkes dalam melaksanakan tugasnya?",
+        "jawaban_asli": "<think>\n\n</think>\n\nPusat JDIH Kemenkes memiliki fungsi: a. pelayanan konsultasi terhadap permasalahan yang dihadapi Anggota JDIH Kemenkes; b. sosialisasi kebijakan dan pengelolaan teknis dokumentasi dan Informasi Hukum kepada Anggota JDIH Kemenkes; c. pembinaan dan pengembangan sumber daya manusia pengelola JDIH Kemenkes; d. penyiapan sarana dan prasarana pendukung pengelolaan JDIH Kemenkes; e. kerja sama dengan Pusat JDIHN; f. pengelolaan JDIH Kemenkes berbasis elektronik dengan memanfaatkan teknologi informasi dan komunikasi; g. monitoring dan evaluasi; dan h. penyampaian laporan penyelenggaraan JDIH Kemenkes kepada Menteri melalui Sekretaris Jenderal dan pusat JDIHN, secara periodik setiap tahun pada bulan Desember. Seluruh fungsi tersebut diatur dalam Pasal 4 ayat (2).",
+        "jawaban_model": "<think>\n\n</think>\n\nBerdasarkan Pasal 4 ayat (2), Pusat JDIH Kemenkes memiliki fungsi sebagai berikut: a. merumuskan kebijakan pembinaan, pengelolaan, dan pengembangan JDIH Kemenkes; b. menyediakan rujukan dokumentasi dan Informasi Hukum Kementerian Kesehatan; serta c. mengelola Dokumen Hukum dan Informasi Hukum yang diterbitkan oleh unit kerja selain unit kerja Eselon I yang menjadi anggota JDIH Kemenkes."
+    },
+    {
+        "pertanyaan": "Menteri yang dimaksud dalam peraturan ini adalah siapa?",
+        "jawaban_asli": "<think>\n\n</think>\n\nMenteri sebagaimana dimaksud dalam peraturan ini ialah Menteri yang menyelenggarakan urusan pemerintahan di bidang kesehatan, sesuai dengan ketentuan Pasal 1 angka 7.",
+        "jawaban_model": "<think>\n\n</think>\n\nMenteri yang dimaksud dalam peraturan ini adalah Menteri Kesehatan Republik Indonesia, sebagaimana disebutkan dalam Pasal 1 angka 6."
+    },
+    {
+        "pertanyaan": "Menurut Pasal 7 ayat (2), siapa saja yang termasuk dalam unsur tim teknis JDIH Kemenkes?",
+        "jawaban_asli": "<think>\n\n</think>\n\nUnsur tim teknis JDIH Kemenkes sebagaimana dimaksud dalam Pasal 7 ayat (2) mencakup pusat JDIH Kemenkes, anggota JDIH Kemenkes, serta Pusat Data dan Teknologi Informasi.",
+        "jawaban_model": "<think>\n\n</think>\n\nMenurut Pasal 7 ayat (2), unsur tim teknis JDIH Kemenkes terdiri atas pusat JDIH Kemenkes, anggota JDIH Kemenkes, dan Pusat Data dan Teknologi Informasi."
+    },
+    {
+        "pertanyaan": "Menurut Pasal 1 angka 6, tindakan apa yang harus dilakukan Pusat JDIHN terhadap anggota JDIHN?",
+        "jawaban_asli": "<think>\n\n</think>\n\nPusat JDIHN wajib melaksanakan pembinaan, pengembangan, dan pemantauan terhadap anggota JDIHN sesuai dengan ketentuan Pasal 1 angka 6.",
+        "jawaban_model": "<think>\n\n</think>\n\nMenurut Pasal 1 angka 6, Pusat JDIHN memiliki tugas untuk melakukan pembinaan, pengembangan, dan pemantauan terhadap anggota JDIHN."
+    },
+    {
+        "pertanyaan": "Bentuk artikel hukum apa saja yang termasuk dalam JDIH Kemenkes?",
+        "jawaban_asli": "<think>\n\n</think>\n\nYang termasuk dalam bentuk artikel hukum yang dikelola JDIH Kemenkes ialah jurnal hukum, karya ilmiah hukum, berita hukum, serta kliping hukum. Keempat bentuk ini tercantum pada Pasal 8 ayat (7).",
+        "jawaban_model": "<think>\n\n</think>\n\nBerdasarkan Pasal 8 ayat (3), JDIH Kemenkes mencakup berbagai bentuk artikel hukum, yaitu jurnal hukum, karya ilmiah hukum, berita hukum, dan kliping hukum."
+    },
+    {
+        "pertanyaan": "Siapa yang menerima laporan dari Anggota JDIH Kemenkes dan seberapa sering laporan itu minimal disampaikan?",
+        "jawaban_asli": "<think>\n\n</think>\n\nLaporan ditujukan kepada Pusat JDIH Kemenkes dan harus disampaikan minimal 1 (satu) kali dalam setahun. Pengaturan mengenai penerima dan frekuensi minimum ini terdapat dalam Pasal 5 ayat (2) huruf c.",
+        "jawaban_model": "<think>\n\n</think>\n\nLaporan dari Anggota JDIH Kemenkes diterima oleh Pusat JDIH Kemenkes dengan ketentuan minimal penyampaian laporan 1 (satu) kali dalam setahun. Ketentuan ini tercantum dalam Pasal 5 ayat (2) huruf c."
+    },
+    {
+        "pertanyaan": "Apa yang dimaksud dengan Jaringan Dokumentasi dan Informasi Hukum Kementerian Kesehatan?",
+        "jawaban_asli": "<think>\n\n</think>\n\nJaringan Dokumentasi dan Informasi Hukum Kementerian Kesehatan, atau JDIH Kemenkes, merupakan suatu sistem di lingkungan Kementerian Kesehatan yang digunakan untuk mengelola dan mendayagunakan dokumen serta informasi hukum di bidang kesehatan secara tertib, terpadu, dan berkesinambungan. Sistem ini juga berfungsi sebagai sarana pelayanan informasi hukum yang lengkap, akurat, mudah, dan cepat. Pengertian tersebut tercantum dalam Pasal 1 angka 2.",
+        "jawaban_model": "<think>\n\n</think>\n\nJaringan Dokumentasi dan Informasi Hukum Kementerian Kesehatan, sebagaimana disebutkan dalam Pasal 1 angka 2, adalah sistem pengelolaan dan pendayagunaan bersama dokumen hukum dan informasi hukum di bidang kesehatan. Sistem ini juga berfungsi sebagai sarana pelayanan informasi hukum yang lengkap, akurat, mudah, dan cepat."
+    },
+    {
+        "pertanyaan": "Dapatkah dijelaskan asal unsur tim teknis JDIH Kemenkes?",
+        "jawaban_asli": "<think>\n\n</think>\n\nSebagaimana diatur dalam Pasal 7 ayat (2), tim teknis JDIH Kemenkes berasal dari pusat JDIH Kemenkes, anggota JDIH Kemenkes, dan Pusat Data dan Teknologi Informasi.",
+        "jawaban_model": "<think>\n\n</think>\n\nBerdasarkan Pasal 7 ayat (3), tim teknis JDIH Kemenkes berasal dari unsur pusat JDIH Kemenkes, anggota JDIH Kemenkes, dan Pusat Data dan Teknologi Informasi."
+    },
+    {
+        "pertanyaan": "Badan atau lembaga apakah yang ditetapkan sebagai Pusat JDIHN?",
+        "jawaban_asli": "<think>\n\n</think>\n\nPusat JDIHN merujuk pada Badan Pembinaan Hukum Nasional di bawah Kementerian Hukum dan Hak Asasi Manusia, sesuai dengan Pasal 1 angka 6.",
+        "jawaban_model": "<think>\n\n</think>\n\nPusat JDIHN ditetapkan sebagai Badan Pembinaan Hukum Nasional, Kementerian Hukum dan Hak Asasi Manusia, berdasarkan Pasal 1 angka 6."
+    },
+    {
+        "pertanyaan": "Siapa pejabat yang memiliki kewenangan menetapkan Peraturan Menteri ini?",
+        "jawaban_asli": "<think>\n\n</think>\n\nPejabat yang berwenang dan menetapkan Peraturan Menteri ini adalah Menteri Kesehatan Republik Indonesia, Budi G. Sadikin. Nama serta jabatan itu tercantum pada bagian penutup setelah Pasal 11.",
+        "jawaban_model": "<think>\n\n</think>\n\nPejabat yang memiliki kewenangan menetapkan Peraturan Menteri ini adalah Menteri Kesehatan Republik Indonesia, Budi G. Sadikin. Nama dan jabatan tersebut tercantum dalam bagian penutup setelah Pasal 11."
+    },
+    {
+        "pertanyaan": "Apakah pendanaan untuk pengelolaan JDIH Kementerian Kesehatan dapat berasal dari sumber yang tidak menggunakan anggaran pendapatan dan belanja negara?",
+        "jawaban_asli": "<think>\n\n</think>\n\nDapat. Pasal 10 menyatakan dengan rumusan “dan/atau” bahwa dana dapat diperoleh dari sumber lain, tanpa harus menggunakan anggaran pendapatan dan belanja negara, selama sumber tersebut diperbolehkan oleh peraturan perundang-undangan.",
+        "jawaban_model": "<think>\n\n</think>\n\nYa. Pasal 10 menggunakan frasa “dan/atau”, sehingga pendanaan dapat berasal dari sumber lain tanpa menggunakan anggaran pendapatan dan belanja negara, sepanjang sumber tersebut sah berdasarkan ketentuan peraturan perundang-undangan."
+    },
+    {
+        "pertanyaan": "Apa definisi formal Informasi Hukum?",
+        "jawaban_asli": "<think>\n\n</think>\n\nSecara formal, Informasi Hukum adalah setiap data dan keterangan yang dimuat dalam Dokumen Hukum sebagaimana didefinisikan dalam Pasal 1 angka 4.",
+        "jawaban_model": "<think>\n\n</think>\n\nInformasi Hukum adalah seluruh data dan keterangan yang tercantum dalam Dokumen Hukum, sebagaimana didefinisikan pada Pasal 1 angka 4."
+    },
+    {
+        "pertanyaan": "Dokumen apa yang termasuk ke dalam kategori monografi pada JDIH Kemenkes?",
+        "jawaban_asli": "<think>\n\n</think>\n\nBerdasarkan ketentuan dalam Pasal 8 ayat (5), kategori monografi mencakup naskah akademik, kajian hukum, buku hukum, rancangan Peraturan Perundang-Undangan, serta produk hukum lainnya.",
+        "jawaban_model": "<think>\n\n</think>\n\nKategori monografi mencakup naskah akademik, kajian hukum, buku hukum, rancangan Peraturan Perundang-Undangan, dan produk hukum lain. Hal ini diatur dalam Pasal 8 ayat (3) huruf d."
+    },
+    {
+        "pertanyaan": "Syarat apa yang harus dipenuhi terkait substansi perkara dan status hukum putusan untuk dimasukkan sebagai dokumen putusan atau yurisprudensi dalam JDIH Kemenkes?",
+        "jawaban_asli": "<think>\n\n</think>\n\nSubstansi putusan harus berkaitan dengan bidang kesehatan atau memiliki hubungan dengan kesehatan. Putusan tersebut juga harus diterbitkan oleh pengadilan dan telah berkekuatan hukum tetap, sesuai dengan Pasal 8 ayat (9).",
+        "jawaban_model": "<think>\n\n</think>\n\nSyarat yang harus dipenuhi meliputi putusan harus berkekuatan hukum tetap, perkara harus berada dalam bidang kesehatan, serta putusan harus dikeluarkan oleh pengadilan. Ketentuan tersebut tercantum dalam Pasal 8 ayat (7)."
+    },
+    {
+        "pertanyaan": "Apa saja fungsi Pusat JDIHN dalam membina anggota JDIHN?",
+        "jawaban_asli": "<think>\n\n</think>\n\nMenurut Pasal 1 angka 6, fungsi tersebut mencakup pembinaan, pengembangan, dan monitoring terhadap anggota JDIHN.",
+        "jawaban_model": "<think>\n\n</think>\n\nBerdasarkan Pasal 1 angka 6, Pusat JDIHN berfungsi untuk membina dan mengembangkan anggota JDIHN melalui pemberian konsultasi, sosialisasi, serta penyelesaian permasalahan yang dihadapi."
+    },
+    {
+        "pertanyaan": "Mengapa organisasi pengelola JDIH Kemenkes dibentuk?",
+        "jawaban_asli": "<think>\n\n</think>\n\nOrganisasi pengelola JDIH Kemenkes dibentuk karena diperlukan untuk menyelenggarakan pengelolaan JDIH Kemenkes, sebagaimana ditetapkan dalam Pasal 3 ayat (1).",
+        "jawaban_model": "<think>\n\n</think>\n\nOrganisasi pengelola JDIH Kemenkes dibentuk untuk menyelenggarakan pengelolaan JDIH Kemenkes sebagaimana dimaksud dalam Pasal 3 ayat (1)."
+    },
+    {
+        "pertanyaan": "Apakah Peraturan Perundang-Undangan serta produk hukum lainnya yang berkaitan dengan bidang kesehatan termasuk dalam ruang lingkup JDIH Kemenkes?",
+        "jawaban_asli": "<think>\n\n</think>\n\nYa. Berdasarkan Pasal 8 ayat (4), cakupan tersebut meliputi seluruh jenis Peraturan Perundang-Undangan dan produk hukum lainnya di bidang kesehatan atau yang berhubungan dengan kesehatan, sepanjang telah ditandatangani oleh pejabat yang berwenang dan/atau diundangkan sesuai dengan ketentuan peraturan perundang-undangan.",
+        "jawaban_model": "<think>\n\n</think>\n\nYa. Pasal 8 ayat (4) mencakup semua jenis Peraturan Perundang-Undangan dan produk hukum lainnya di bidang kesehatan atau yang terkait dengan kesehatan, yang telah ditandatangani oleh pejabat yang berwenang dan/atau telah diundangkan sesuai dengan ketentuan peraturan perundang-undangan."
+    },
+    {
+        "pertanyaan": "Sebutkan bunyi Pasal 10.",
+        "jawaban_asli": "<think>\n\n</think>\n\nPasal 10\n\nPendanaan pelaksanaan pengelolaan JDIH Kemenkes bersumber pada anggaran pendapatan dan belanja negara dan/atau sumber lain yang sah sesuai dengan ketentuan peraturan perundang-undangan.",
+        "jawaban_model": "<think>\n\n</think>\n\nPasal 10: Pusat JDIH Kemenkes melakukan monitoring dan evaluasi terhadap: a. pelaksanaan pengelolaan JDIH Kemenkes; dan b. pelaksanaan tugas dan fungsi anggota JDIH Kemenkes."
+    },
+    {
+        "pertanyaan": "Menurut ketentuan yang berlaku, kegiatan apa saja yang termasuk dalam pengelolaan dokumentasi dan informasi hukum?",
+        "jawaban_asli": "<think>\n\n</think>\n\nBerdasarkan ketentuan tersebut, pengelolaan mencakup pengumpulan, pengolahan, penyimpanan, pelestarian, dan publikasi Dokumen Hukum, sebagaimana disebutkan pada Pasal 6 ayat (3).",
+        "jawaban_model": "<think>\n\n</think>\n\nKegiatan yang termasuk dalam pengelolaan dokumentasi dan informasi hukum adalah kegiatan mengumpulkan, mengolah, menyimpan, melestarikan, dan memublikasikan Dokumen Hukum. Dasar pengaturannya terdapat dalam Pasal 6 ayat (3)."
+    },
+    {
+        "pertanyaan": "Apa pengertian JDIHN?",
+        "jawaban_asli": "<think>\n\n</think>\n\nBerdasarkan Pasal 1 angka 1, Jaringan Dokumentasi dan Informasi Hukum Nasional, yang disingkat JDIHN, merupakan wadah untuk mendayagunakan dokumen hukum secara bersama-sama, tertib, terpadu, dan berkesinambungan, sekaligus menjadi sarana penyediaan layanan informasi hukum yang lengkap, akurat, mudah, dan cepat.",
+        "jawaban_model": "<think>\n\n</think>\n\nJDIHN, atau Jaringan Dokumentasi dan Informasi Hukum Nasional, adalah wadah pemanfaatan bersama dokumen hukum secara tertib, terpadu, dan berkesinambungan, serta sarana pelayanan informasi hukum yang lengkap, akurat, mudah, dan cepat. Pengertian ini tercantum dalam Pasal 1 angka 2."
+    },
+    {
+        "pertanyaan": "Pihak apa saja yang bertugas mengelola dokumentasi serta Informasi Hukum di lingkungan JDIH Kemenkes?",
+        "jawaban_asli": "<think>\n\n</think>\n\nTugas pengelolaan dokumentasi dan Informasi Hukum dilaksanakan oleh Pusat JDIH Kemenkes dan anggota JDIH Kemenkes sesuai dengan pengaturan dalam Pasal 6 ayat (1).",
+        "jawaban_model": "<think>\n\n</think>\n\nPusat JDIH Kemenkes dan para anggota JDIH Kemenkes bertugas mengelola dokumentasi dan Informasi Hukum berdasarkan ketentuan Pasal 6 ayat (1)."
+    },
+    {
+        "pertanyaan": "Apa saja tugas dan fungsi Anggota JDIH Kemenkes berdasarkan Pasal 5?",
+        "jawaban_asli": "<think>\n\n</think>\n\nPasal 5\n\n(1) Berdasarkan Pasal 3 ayat (2) huruf b, Anggota JDIH Kemenkes bertugas mengelola Dokumen Hukum dan Informasi Hukum yang diterbitkan oleh unit kerja dalam lingkungan Eselon I masing-masing.\n\n(2) Pelaksanaan tugas tersebut mencakup fungsi:\n\na. pengumpulan, pengolahan, penyimpanan, pelestarian, dan pendayagunaan Dokumen Hukum serta Informasi Hukum di lingkungan masing-masing;\n\nb. penyediaan sumber daya manusia; dan\n\nc. pelaporan kepada Pusat JDIH Kemenkes paling sedikit 1 (satu) kali setiap tahun.",
+        "jawaban_model": "<think>\n\n</think>\n\nPasal 5\n\n(1) Anggota JDIH Kemenkes sebagaimana dimaksud dalam Pasal 3 ayat (2) huruf b bertanggung jawab atas pengelolaan Dokumen Hukum dan Informasi Hukum yang diterbitkan oleh unit kerja pada masing-masing lingkungan Eselon I.\n\n(2) Untuk melaksanakan tanggung jawab tersebut, Anggota JDIH Kemenkes mempunyai fungsi sebagai berikut:\n\na. menghimpun, mengolah, menyimpan, melestarikan, dan mendayagunakan Dokumen Hukum dan Informasi Hukum di lingkungan masing-masing;\n\nb. menyediakan sumber daya manusia; dan\n\nc. menyampaikan laporan kepada Pusat JDIH Kemenkes sekurang-kurangnya 1 (satu) kali setiap tahun."
+    },
+    {
+        "pertanyaan": "Siapakah pihak yang menetapkan Peraturan Menteri tersebut?",
+        "jawaban_asli": "<think>\n\n</think>\n\nPihak yang menetapkan Peraturan Menteri tersebut adalah Menteri Kesehatan Republik Indonesia, Budi G. Sadikin. Nama dan jabatannya tercantum di bagian penutup setelah Pasal 11.",
+        "jawaban_model": "<think>\n\n</think>\n\nPeraturan Menteri tersebut ditetapkan oleh Menteri Kesehatan Republik Indonesia, Budi G. Sadikin. Nama dan jabatan tersebut tercantum pada bagian penutup setelah Pasal 11."
+    },
+    {
+        "pertanyaan": "Apa saja tugas Pusat JDIHN terhadap para anggota JDIHN?",
+        "jawaban_asli": "<think>\n\n</think>\n\nBerdasarkan Pasal 1 angka 6, Pusat JDIHN bertugas membina, mengembangkan, dan memantau anggota JDIHN.",
+        "jawaban_model": "<think>\n\n</think>\n\nBerdasarkan Pasal 1 angka 6, Pusat JDIHN bertugas memberikan pembinaan, melakukan pengembangan, dan melakukan monitoring terhadap anggota JDIHN."
+    },
+    {
+        "pertanyaan": "Mohon sebutkan tiga tujuan JDIH Kemenkes yang diatur dalam Pasal 2.",
+        "jawaban_asli": "<think>\n\n</think>\n\nPasal 2\n\nTiga tujuan JDIH Kemenkes adalah:\n\na. mewujudkan tertib administrasi untuk kegiatan pengumpulan, pengelolaan, penyimpanan, pelestarian, dan publikasi Dokumen Hukum;\n\nb. melakukan penataan dokumentasi dan Informasi Hukum dengan menggunakan teknologi informasi dan komunikasi; dan\n\nc. menyediakan dokumentasi serta Informasi Hukum yang berkaitan dengan kesehatan secara lengkap, akurat, mudah, dan cepat.",
+        "jawaban_model": "<think>\n\n</think>\n\nPasal 2\n\nTujuan JDIH Kemenkes adalah:\n\na. mewujudkan administrasi yang tertib dalam kegiatan pengumpulan, pengelolaan, penyimpanan, pelestarian, dan publikasi Dokumen Hukum;\n\nb. menyediakan dokumentasi dan Informasi Hukum yang berhubungan dengan kesehatan secara lengkap, akurat, mudah diakses, dan cepat; dan\n\nc. membangun kesadaran masyarakat untuk berpartisipasi dalam pengelolaan JDIH Kemenkes."
+    },
+    {
+        "pertanyaan": "Bagaimana pengelompokan Peraturan Presiden dan Keputusan Presiden dalam JDIH Kemenkes; apakah keduanya termasuk kategori yang sama?",
+        "jawaban_asli": "<think>\n\n</think>\n\nKeduanya tidak termasuk kategori yang sama. Peraturan Presiden digolongkan sebagai Peraturan Perundang-undangan berdasarkan Pasal 8 ayat (2) huruf d, sedangkan Keputusan Presiden digolongkan sebagai produk hukum lain berdasarkan Pasal 8 ayat (3) huruf a.",
+        "jawaban_model": "<think>\n\n</think>\n\nPengelompokan tersebut berbeda. Peraturan Presiden termasuk kategori Peraturan Perundang-undangan menurut Pasal 8 ayat (2) huruf d. Sementara itu, Keputusan Presiden termasuk kategori produk hukum lain berdasarkan Pasal 8 ayat (3) huruf a."
+    },
+    {
+        "pertanyaan": "Mohon jelaskan makna istilah dalam Pasal 1.",
+        "jawaban_asli": "<think>\n\n</think>\n\nPasal 1\n\nMakna istilah dalam Peraturan Menteri ini adalah: 1. Jaringan Dokumentasi dan Informasi Hukum Nasional (JDIHN) merupakan wadah bersama untuk mendayagunakan dokumen hukum dengan tertib, terpadu, dan berkesinambungan, serta menjadi sarana layanan informasi hukum yang lengkap, akurat, mudah, dan cepat. 2. Jaringan Dokumentasi dan Informasi Hukum Kementerian Kesehatan (JDIH Kemenkes) ialah sistem pengelolaan dan pemanfaatan bersama dokumen hukum serta informasi hukum di bidang kesehatan dengan cara yang tertib, terpadu, dan berkelanjutan, serta menjadi sarana pelayanan informasi hukum yang lengkap, akurat, mudah, dan cepat. 3. Dokumen Hukum meliputi produk hukum berbentuk peraturan perundang-undangan serta produk hukum lainnya yang bukan peraturan perundang-undangan, seperti putusan pengadilan, yurisprudensi, monografi hukum, artikel majalah hukum, buku hukum, penelitian hukum, pengkajian hukum, naskah akademis, dan rancangan peraturan perundang-undangan, tanpa terbatas pada jenis-jenis tersebut. 4. Informasi Hukum ialah seluruh data dan keterangan yang dimuat dalam Dokumen Hukum. 5. Peraturan Perundang-undangan ialah peraturan tertulis yang memuat norma hukum yang berlaku mengikat secara umum, serta dibentuk atau ditetapkan oleh lembaga negara atau pejabat berwenang dengan mengikuti prosedur yang ditentukan dalam Peraturan Perundang-undangan. 6. Pusat JDIHN adalah Badan Pembinaan Hukum Nasional pada Kementerian Hukum dan Hak Asasi Manusia, dengan tugas melakukan pembinaan, pengembangan, dan monitoring anggota JDIHN. 7. Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang kesehatan.",
+        "jawaban_model": "<think>\n\n</think>\n\nPasal 1\n\nDalam Peraturan Menteri ini berlaku pengertian berikut: 1. JDIHN atau Jaringan Dokumentasi dan Informasi Hukum Nasional adalah wadah pendayagunaan bersama dokumen hukum yang dilakukan secara tertib, terpadu, dan berkesinambungan, serta merupakan sarana pelayanan informasi hukum yang lengkap, akurat, mudah, dan cepat. 2. JDIH Kemenkes adalah Jaringan Dokumentasi dan Informasi Hukum di lingkungan Kementerian Kesehatan, yaitu sistem pengelolaan dan pendayagunaan bersama dokumen hukum serta informasi hukum di bidang kesehatan secara tertib, terpadu, dan berkesinambungan, serta merupakan sarana pelayanan informasi hukum yang lengkap, akurat, mudah, dan cepat. 3. Dokumen Hukum adalah produk hukum yang berbentuk peraturan perundang-undangan atau produk hukum lain di luar peraturan perundang-undangan, termasuk namun tidak terbatas pada putusan pengadilan, yurisprudensi, monografi hukum, artikel majalah hukum, buku hukum, penelitian hukum, pengkajian hukum, naskah akademis, dan rancangan peraturan perundang-undangan. 4. Informasi Hukum adalah seluruh data dan keterangan yang tercantum dalam Dokumen Hukum. 5. Peraturan Perundang-undangan adalah peraturan tertulis yang memuat norma hukum yang mengikat secara umum, yang dibentuk atau ditetapkan oleh lembaga negara atau pejabat yang berwenang melalui prosedur yang telah ditetapkan dalam Peraturan Perundang-undangan. 6. Pusat JDIHN adalah Badan Pembinaan Hukum Nasional, Kementerian Hukum dan Hak Asasi Manusia, yang bertugas membina, mengembangkan, dan melakukan monitoring terhadap anggota JDIHN. 7. Menteri adalah Menteri yang menyelenggarakan urusan pemerintahan di bidang kesehatan."
+    },
+    {
+        "pertanyaan": "Kepada siapa Pusat JDIH Kemenkes menyampaikan laporan penyelenggaraan JDIH Kemenkes, dan melalui siapa laporan kepada Menteri disampaikan?",
+        "jawaban_asli": "<think>\n\n</think>\n\nLaporan disampaikan kepada Menteri melalui Sekretaris Jenderal dan kepada pusat JDIHN. Penerima dan jalur penyampaian laporan tersebut ditetapkan dalam Pasal 4 ayat (2) huruf h.",
+        "jawaban_model": "<think>\n\n</think>\n\nLaporan penyelenggaraan JDIH Kemenkes disampaikan kepada Menteri melalui Sekretaris Jenderal dan kepada Pusat JDIHN. Pengaturan mengenai pihak penerima dan jalur penyampaian laporan tercantum dalam Pasal 4 ayat (2) huruf h."
+    },
+    {
+        "pertanyaan": "Kegiatan apa saja yang menjadi sasaran tertib administrasi dalam tujuan JDIH Kemenkes?",
+        "jawaban_asli": "<think>\n\n</think>\n\nKegiatan yang menjadi sasaran tertib administrasi adalah pengumpulan, pengelolaan, penyimpanan, pelestarian, dan publikasi Dokumen Hukum, sebagaimana tercantum dalam Pasal 2 huruf a.",
+        "jawaban_model": "<think>\n\n</think>\n\nSasaran tertib administrasi meliputi kegiatan pengumpulan, pengelolaan, penyimpanan, pelestarian, dan publikasi Dokumen Hukum, sebagaimana diatur dalam Pasal 2 huruf a."
+    },
+    {
+        "pertanyaan": "Dari sumber mana pembiayaan pengelolaan JDIH Kemenkes diperoleh?",
+        "jawaban_asli": "<think>\n\n</think>\n\nSesuai dengan Pasal 10, pembiayaan pelaksanaan pengelolaan JDIH Kemenkes bersumber dari anggaran pendapatan dan belanja negara dan/atau sumber lain yang sah berdasarkan ketentuan peraturan perundang-undangan.",
+        "jawaban_model": "<think>\n\n</think>\n\nPembiayaan pengelolaan JDIH Kemenkes bersumber dari anggaran pendapatan dan belanja negara dan/atau sumber lain yang sah sesuai dengan ketentuan peraturan perundang-undangan, sebagaimana dinyatakan dalam Pasal 10."
+    },
+    {
+        "pertanyaan": "Dalam rangka mencapai tujuan JDIH Kemenkes, kegiatan apa saja yang menjadi sasaran tertib administrasi?",
+        "jawaban_asli": "<think>\n\n</think>\n\nKegiatan yang menjadi sasaran tersebut meliputi pengumpulan, pengelolaan, penyimpanan, pelestarian, dan publikasi Dokumen Hukum sesuai ketentuan Pasal 2 huruf a.",
+        "jawaban_model": "<think>\n\n</think>\n\nSasaran tertib administrasi meliputi kegiatan pengumpulan, pengelolaan, penyimpanan, pelestarian, dan publikasi Dokumen Hukum, sebagaimana diatur dalam Pasal 2 huruf a."
+    },
+    {
+        "pertanyaan": "Dalam JDIH Kemenkes, putusan atau yurisprudensi mencakup putusan dari lembaga peradilan apa saja?",
+        "jawaban_asli": "<think>\n\n</think>\n\nBerdasarkan Pasal 8 ayat (8), cakupannya meliputi putusan Mahkamah Konstitusi, putusan Mahkamah Agung, dan putusan peradilan lainnya.",
+        "jawaban_model": "<think>\n\n</think>\n\nPasal 8 ayat (3) huruf f mencakup putusan dari lembaga peradilan berikut: peradilan konstitusi, peradilan umum, peradilan agama, peradilan militer, dan peradilan laut."
+    },
+    {
+        "pertanyaan": "Unsur apa saja yang membentuk organisasi pengelola JDIH Kemenkes?",
+        "jawaban_asli": "<think>\n\n</think>\n\nSesuai dengan Pasal 3 ayat (2), organisasi pengelola JDIH Kemenkes mencakup Pusat JDIH Kemenkes dan Anggota JDIH Kemenkes.",
+        "jawaban_model": "<think>\n\n</think>\n\nOrganisasi pengelola JDIH Kemenkes terdiri atas Pusat JDIH Kemenkes dan Anggota JDIH Kemenkes, sebagaimana diatur dalam Pasal 3 ayat (2)."
+    },
+    {
+        "pertanyaan": "Kepada institusi mana Anggota JDIH Kemenkes menyampaikan laporan dan berapa kali paling sedikit laporan itu harus dibuat setiap tahun?",
+        "jawaban_asli": "<think>\n\n</think>\n\nLaporan disampaikan kepada Pusat JDIH Kemenkes sekurang-kurangnya 1 (satu) kali per tahun. Dasar ketentuan mengenai penerima serta frekuensi minimal laporan adalah Pasal 5 ayat (2) huruf c.",
+        "jawaban_model": "<think>\n\n</think>\n\nLaporan harus disampaikan kepada Pusat JDIH Kemenkes sekurang-kurangnya 1 (satu) kali setiap tahun. Ketentuan mengenai penerima dan frekuensi minimal laporan ini tercantum dalam Pasal 5 ayat (2) huruf c."
+    },
+    {
+        "pertanyaan": "Mohon diinformasikan lokasi dan tanggal penetapan Peraturan Menteri ini.",
+        "jawaban_asli": "<think>\n\n</think>\n\nPeraturan Menteri ini ditetapkan di Jakarta pada 2 Agustus 2024, sebagaimana tercantum pada bagian penutup setelah Pasal 11.",
+        "jawaban_model": "<think>\n\n</think>\n\nLokasi dan tanggal penetapan Peraturan Menteri ini adalah sebagai berikut: Peraturan Menteri ini ditetapkan di Jakarta pada 2 Agustus 2024, sebagaimana dinyatakan pada bagian penutup setelah Pasal 11."
+    },
+    {
+        "pertanyaan": "Pejabat mana yang berwenang menetapkan Peraturan Menteri ini?",
+        "jawaban_asli": "<think>\n\n</think>\n\nPejabat yang menetapkan Peraturan Menteri ini ialah Menteri Kesehatan Republik Indonesia, Budi G. Sadikin. Keterangan mengenai nama dan jabatan tersebut tercantum dalam bagian penutup setelah Pasal 11.",
+        "jawaban_model": "<think>\n\n</think>\n\nPeraturan Menteri ini ditetapkan oleh Budi G. Sadikin, Menteri Kesehatan Republik Indonesia. Nama dan jabatan tersebut tercantum dalam bagian penutup setelah Pasal 11."
+    },
+    {
+        "pertanyaan": "Apa tujuan dibentuknya tim teknis JDIH Kemenkes?",
+        "jawaban_asli": "<think>\n\n</think>\n\nTim teknis JDIH Kemenkes dibentuk untuk mendukung pengelolaan dokumentasi dan informasi hukum sebagaimana diatur dalam Pasal 7 ayat (1).",
+        "jawaban_model": "<think>\n\n</think>\n\nTujuan pembentukan tim teknis JDIH Kemenkes adalah mendukung pengelolaan dokumentasi dan informasi hukum berdasarkan Pasal 7 ayat (1)."
+    },
+    {
+        "pertanyaan": "Apakah Dokumen Hukum yang dikelola hanya berasal dari Kementerian Kesehatan?",
+        "jawaban_asli": "<think>\n\n</think>\n\nTidak. Pasal 6 ayat (3) menyebutkan bahwa Dokumen Hukum yang dikelola berasal dari Kementerian Kesehatan atau sumber lain di luar Kementerian Kesehatan.",
+        "jawaban_model": "<think>\n\n</think>\n\nTidak. Berdasarkan Pasal 6 ayat (3), Dokumen Hukum yang dikelola dapat berasal dari Kementerian Kesehatan maupun sumber lain di luar Kementerian Kesehatan."
+    },
+    {
+        "pertanyaan": "Melalui cara apa saja pengelolaan dokumentasi dan Informasi Hukum dilakukan?",
+        "jawaban_asli": "<think>\n\n</think>\n\nBerdasarkan Pasal 6 ayat (2), pengelolaan dilakukan melalui: a. pendokumentasian secara digital dalam JDIH Kemenkes; dan b. pendokumentasian secara manual sesuai dengan ketentuan peraturan perundang-undangan.",
+        "jawaban_model": "<think>\n\n</think>\n\nPengelolaan tersebut dilakukan melalui dua cara, yaitu: a. mendokumentasikan secara digital dalam JDIH Kemenkes; dan b. mendokumentasikan secara manual sesuai dengan ketentuan peraturan perundang-undangan. Dasar pengaturannya terdapat dalam Pasal 2 huruf c."
+    },
+    {
+        "pertanyaan": "Badan Pembinaan Hukum Nasional dalam konteks apa disebut sebagai Pusat JDIHN?",
+        "jawaban_asli": "<think>\n\n</think>\n\nBadan Pembinaan Hukum Nasional, Kementerian Hukum dan Hak Asasi Manusia, disebut sebagai Pusat JDIHN berdasarkan Pasal 1 angka 6.",
+        "jawaban_model": "<think>\n\n</think>\n\nDalam konteks tersebut, Badan Pembinaan Hukum Nasional disebut sebagai Pusat JDIHN karena merupakan unit yang melakukan pembinaan, pengembangan, dan monitoring terhadap anggota JDIHN. Ketentuan ini terdapat dalam Pasal 1 angka 6."
+    },
+    {
+        "pertanyaan": "Mohon sebutkan unit-unit yang menjadi anggota JDIH Kemenkes.",
+        "jawaban_asli": "<think>\n\n</think>\n\nMenurut Pasal 3 ayat (4), unit yang menjadi anggota JDIH Kemenkes adalah: a. Sekretariat Direktorat Jenderal Kesehatan Masyarakat; b. Sekretariat Direktorat Jenderal Pencegahan dan Pengendalian Penyakit; c. Sekretariat Direktorat Jenderal Pelayanan Kesehatan; d. Sekretariat Direktorat Jenderal Kefarmasian dan Alat Kesehatan; e. Sekretariat Direktorat Jenderal Tenaga Kesehatan; f. Sekretariat Inspektorat Jenderal; g. Sekretariat Badan Kebijakan dan Pembangunan Kesehatan; dan h. Sekretariat Konsil.",
+        "jawaban_model": "<think>\n\n</think>\n\nBerdasarkan Pasal 3 ayat (4), unit-unit yang menjadi anggota JDIH Kemenkes adalah: a. Sekretariat Direktorat Jenderal Kesehatan Masyarakat; b. Sekretariat Direktorat Jenderal Pencegahan dan Pengendalian Penyakit; c. Sekretariat Direktorat Jenderal Pelayanan Kesehatan; d. Sekretariat Direktorat Jenderal Kefarmasian dan Alat Kesehatan; e. Sekretariat Direktorat Jenderal Tenaga Kesehatan; f. Sekretariat Inspektorat Jenderal; g. Sekretariat Badan Kebijakan dan Pembangunan Kesehatan; dan h. Sekretariat Konsil."
+    },
+    {
+        "pertanyaan": "Bagaimana definisi JDIH Kemenkes?",
+        "jawaban_asli": "<think>\n\n</think>\n\nJDIH Kemenkes adalah Jaringan Dokumentasi dan Informasi Hukum yang berada dalam lingkungan Kementerian Kesehatan. Sistem ini berfungsi mengelola dan mendayagunakan dokumen hukum serta informasi hukum di bidang kesehatan secara tertib, terpadu, dan berkelanjutan, serta menyediakan pelayanan informasi hukum secara lengkap, akurat, mudah, dan cepat. Definisi ini diatur dalam Pasal 1 angka 2.",
+        "jawaban_model": "<think>\n\n</think>\n\nJDIH Kemenkes adalah Jaringan Dokumentasi dan Informasi Hukum di lingkungan Kementerian Kesehatan. JDIH tersebut merupakan sistem pengelolaan dan pendayagunaan bersama dokumen hukum dan informasi hukum di bidang kesehatan secara tertib, terpadu, dan berkesinambungan, serta sarana pelayanan informasi hukum yang lengkap, akurat, mudah, dan cepat. Definisi ini tercantum dalam Pasal 1 angka 2."
+    },
+    {
+        "pertanyaan": "Bolehkah tim teknis JDIH Kemenkes meminta keterlibatan Pusat JDIHN atau kementerian/lembaga terkait dalam pengelolaan dokumentasi dan informasi hukum?",
+        "jawaban_asli": "<think>\n\n</think>\n\nYa, keterlibatan Pusat JDIHN dan/atau kementerian/lembaga terkait diperbolehkan dalam pengelolaan dokumentasi dan informasi hukum oleh tim teknis. Ketentuan tersebut diatur dalam Pasal 7 ayat (3).",
+        "jawaban_model": "<think>\n\n</think>\n\nBoleh. Pasal 7 ayat (3) menegaskan bahwa tim teknis dapat melibatkan Pusat JDIHN atau kementerian/lembaga terkait dalam pengelolaan dokumentasi dan informasi hukum."
+    },
+    {
+        "pertanyaan": "Apa saja yang menjadi objek monitoring dan evaluasi oleh Pusat JDIH Kemenkes?",
+        "jawaban_asli": "<think>\n\n</think>\n\nBerdasarkan Pasal 9 ayat (1), monitoring dan evaluasi dilakukan terhadap:\na. pelaksanaan pengelolaan JDIH Kemenkes; dan\nb. pelaksanaan tugas dan fungsi anggota JDIH Kemenkes.",
+        "jawaban_model": "<think>\n\n</think>\n\nBerdasarkan Pasal 9 ayat (1), monitoring dan evaluasi dilakukan terhadap: a. pelaksanaan pengelolaan JDIH Kemenkes; dan b. pelaksanaan tugas dan fungsi anggota JDIH Kemenkes."
+    },
+    {
+        "pertanyaan": "Menteri dalam ketentuan ini merujuk kepada pejabat yang mana?",
+        "jawaban_asli": "<think>\n\n</think>\n\nMenteri dalam ketentuan ini merujuk kepada Menteri yang menyelenggarakan urusan pemerintahan di bidang kesehatan, sebagaimana dimaksud dalam Pasal 1 angka 7.",
+        "jawaban_model": "<think>\n\n</think>\n\nMenteri dalam ketentuan ini merujuk kepada pejabat yang menjabat sebagai menteri atau pejabat yang ditugaskan sebagai menteri berdasarkan ketentuan peraturan perundang-undangan. Hal tersebut diatur dalam Pasal 1 angka 7."
+    },
+    {
+        "pertanyaan": "Kapan Peraturan Menteri ini mulai berlaku?",
+        "jawaban_asli": "<think>\n\n</think>\n\nPeraturan Menteri ini berlaku sejak tanggal diundangkan, sebagaimana diatur dalam Pasal 11.",
+        "jawaban_model": "<think>\n\n</think>\n\nPeraturan Menteri ini mulai berlaku pada saat peraturan tersebut diundangkan, sebagaimana ditetapkan dalam Pasal 11."
+    },
+    {
+        "pertanyaan": "Apabila Anggota JDIH Kemenkes memerlukan bantuan karena menghadapi permasalahan, layanan apa yang menjadi fungsi Pusat JDIH Kemenkes?",
+        "jawaban_asli": "<think>\n\n</think>\n\nFungsi Pusat JDIH Kemenkes dalam hal tersebut adalah memberikan pelayanan konsultasi terhadap permasalahan yang dihadapi Anggota JDIH Kemenkes. Hal ini diatur dalam Pasal 4 ayat (2) huruf a.",
+        "jawaban_model": "<think>\n\n</think>\n\nLayanan yang dimaksud adalah pelayanan konsultasi terhadap permasalahan yang dihadapi Anggota JDIH Kemenkes. Fungsi ini tercantum dalam Pasal 4 ayat (2) huruf a."
+    },
+    {
+        "pertanyaan": "Apa ruang lingkup bidang hukum yang disediakan melalui JDIH Kemenkes, dan apa standar akses serta kelengkapannya?",
+        "jawaban_asli": "<think>\n\n</think>\n\nRuang lingkupnya adalah Dokumentasi dan Informasi Hukum di bidang kesehatan. Standar penyediaannya mencakup kelengkapan, keakuratan, kemudahan, dan kecepatan, sebagaimana diatur dalam Pasal 2 huruf c.",
+        "jawaban_model": "<think>\n\n</think>\n\nRuang lingkup bidang hukum yang disediakan melalui JDIH Kemenkes adalah kesehatan, dengan standar akses yang selalu tersedia dan lengkap sesuai ketentuan Pasal 8 ayat (1) huruf c."
+    },
+    {
+        "pertanyaan": "Sampaikan rumusan Pasal 11 yang mengatur mulai berlakunya Peraturan Menteri ini.",
+        "jawaban_asli": "<think>\n\n</think>\n\nPasal 11\n\nPeraturan Menteri ini mulai berlaku sejak diundangkan.",
+        "jawaban_model": "<think>\n\n</think>\n\nPasal 11\n\nPeraturan Menteri ini mulai berlaku terhitung sejak tanggal diundangkan."
+    },
+    {
+        "pertanyaan": "Apa bunyi Pasal 9?",
+        "jawaban_asli": "<think>\n\n</think>\n\nPasal 9\n\n(1) Monitoring dan evaluasi terhadap hal-hal berikut dilaksanakan oleh Pusat JDIH Kemenkes:\n\na. pelaksanaan pengelolaan JDIH Kemenkes; dan\n\nb. pelaksanaan tugas dan fungsi anggota JDIH Kemenkes.\n\n(2) Kegiatan monitoring dan evaluasi sebagaimana dimaksud pada ayat (1) dilakukan paling sedikit 1 (satu) kali setiap tahun.",
+        "jawaban_model": "<think>\n\n</think>\n\nPasal 9\n\n(1) Untuk mendukung pengelolaan dokumentasi dan Informasi Hukum sebagaimana dimaksud dalam Pasal 8, dibentuk tim teknis JDIH Kemenkes.\n\n(2) Tim teknis JDIH Kemenkes tersebut terdiri atas unsur pusat JDIH Kemenkes, anggota JDIH Kemenkes, serta Pusat Data dan Teknologi Informasi.\n\n(3) Dalam pengelolaan dokumentasi dan Informasi Hukum sebagaimana dimaksud pada ayat (1), tim teknis dapat melibatkan Pusat JDIHN dan/atau kementerian/lembaga terkait.\n\n(4) Tim teknis JDIH Kemenkes sebagaimana dimaksud pada ayat (1) dibentuk melalui keputusan Sekretaris Jenderal."
+    },
+    {
+        "pertanyaan": "Apa nama lembaga yang dimaksud sebagai Pusat JDIHN?",
+        "jawaban_asli": "<think>\n\n</think>\n\nLembaga yang dimaksud sebagai Pusat JDIHN adalah Badan Pembinaan Hukum Nasional pada Kementerian Hukum dan Hak Asasi Manusia, sesuai ketentuan Pasal 1 angka 6.",
+        "jawaban_model": "<think>\n\n</think>\n\nPusat JDIHN adalah Badan Pembinaan Hukum Nasional, Kementerian Hukum dan Hak Asasi Manusia, berdasarkan Pasal 1 angka 6."
+    },
+    {
+        "pertanyaan": "Siapakah pejabat yang disebutkan dalam bagian pengundangan, dan di kota mana pengundangan tersebut dilaksanakan?",
+        "jawaban_asli": "<think>\n\n</think>\n\nPada bagian penutup setelah Pasal 11, dinyatakan bahwa pengundangan dilakukan di Jakarta oleh Asep N. Mulyana dalam kapasitasnya sebagai PLT. Direktur Jenderal Peraturan Perundang-undangan Kementerian Hukum dan Hak Asasi Manusia Republik Indonesia.",
+        "jawaban_model": "<think>\n\n</think>\n\nDalam bagian penutup setelah Pasal 11, disebutkan bahwa pengundangan dilakukan di Jakarta oleh Asep N. Mulyana selaku PLT. Direktur Jenderal Peraturan Perundang-undangan Kementerian Hukum dan Hak Asasi Manusia Republik Indonesia."
+    },
+    {
+        "pertanyaan": "Tolong tampilkan ketentuan yang tercantum dalam Pasal 9.",
+        "jawaban_asli": "<think>\n\n</think>\n\nPasal 9\n\n(1) Pusat JDIH Kemenkes bertugas melaksanakan monitoring dan evaluasi atas:\n\na. pengelolaan JDIH Kemenkes; dan\n\nb. pelaksanaan tugas dan fungsi para anggota JDIH Kemenkes.\n\n(2) Monitoring dan evaluasi tersebut dilaksanakan paling sedikit sekali dalam setiap tahun.",
+        "jawaban_model": "<think>\n\n</think>\n\nPasal 9\n\n(1) Untuk mendukung pengelolaan dokumentasi dan Informasi Hukum sebagaimana dimaksud dalam Pasal 8, dibentuk tim teknis JDIH Kemenkes.\n\n(2) Tim teknis JDIH Kemenkes tersebut terdiri atas unsur pusat JDIH Kemenkes, anggota JDIH Kemenkes, serta Pusat Data dan Teknologi Informasi.\n\n(3) Dalam pengelolaan dokumentasi dan Informasi Hukum sebagaimana dimaksud pada ayat (1), tim teknis dapat melibatkan Pusat JDIHN dan/atau kementerian/lembaga terkait.\n\n(4) Tim teknis JDIH Kemenkes sebagaimana dimaksud pada ayat (1) dibentuk melalui keputusan Sekretaris Jenderal."
+    },
+    {
+        "pertanyaan": "Apa arti dari Informasi Hukum menurut ketentuan tersebut?",
+        "jawaban_asli": "<think>\n\n</think>\n\nMenurut ketentuan tersebut, Informasi Hukum mencakup seluruh data dan keterangan yang terkandung dalam Dokumen Hukum sebagaimana didefinisikan oleh Pasal 1 angka 4.",
+        "jawaban_model": "<think>\n\n</think>\n\nMenurut ketentuan tersebut, Informasi Hukum berarti semua data dan keterangan yang terdapat dalam Dokumen Hukum. Pengertian ini tercantum dalam Pasal 1 angka 4."
+    },
+    {
+        "pertanyaan": "Sampaikan isi Pasal 7 dengan tetap mempertahankan konteks hukumnya.",
+        "jawaban_asli": "<think>\n\n</think>\n\nPasal 7\n\n(1) Dalam rangka mendukung pengelolaan dokumentasi dan Informasi Hukum yang dimaksud dalam Pasal 6, dibentuk tim teknis JDIH Kemenkes.\n\n(2) Tim teknis JDIH Kemenkes sebagaimana dimaksud pada ayat (1) beranggotakan unsur pusat JDIH Kemenkes, anggota JDIH Kemenkes, dan Pusat Data dan Teknologi Informasi.\n\n(3) Tim teknis dapat melibatkan Pusat JDIHN dan/atau kementerian/lembaga terkait dalam pengelolaan dokumentasi dan Informasi Hukum sebagaimana dimaksud pada ayat (1).\n\n(4) Pembentukan tim teknis JDIH Kemenkes sebagaimana dimaksud pada ayat (1) ditetapkan melalui Keputusan Sekretaris Jenderal.",
+        "jawaban_model": "<think>\n\n</think>\n\nPasal 7\n\n(1) Untuk mendukung pengelolaan dokumentasi dan Informasi Hukum sebagaimana dimaksud dalam Pasal 6, dibentuk tim teknis JDIH Kemenkes.\n\n(2) Tim teknis JDIH Kemenkes tersebut terdiri atas unsur pusat JDIH Kemenkes, anggota JDIH Kemenkes, serta Pusat Data dan Teknologi Informasi.\n\n(3) Dalam pengelolaan dokumentasi dan Informasi Hukum sebagaimana dimaksud pada ayat (1), tim teknis dapat melibatkan Pusat JDIHN dan/atau kementerian/lembaga terkait.\n\n(4) Tim teknis JDIH Kemenkes sebagaimana dimaksud pada ayat (1) ditetapkan berdasarkan Keputusan Sekretaris Jenderal."
+    },
+    {
+        "pertanyaan": "Apa ketentuan mengenai cara pengelolaan dokumentasi dan Informasi Hukum?",
+        "jawaban_asli": "<think>\n\n</think>\n\nPasal 6 ayat (2) mengatur bahwa pengelolaan dilakukan melalui dua metode, yakni: a. pendokumentasian secara digital di JDIH Kemenkes; dan b. pendokumentasian secara manual sesuai dengan ketentuan peraturan perundang-undangan.",
+        "jawaban_model": "<think>\n\n</think>\n\nKetentuan Pasal 6 ayat (2) menjelaskan bahwa pengelolaan dilakukan dengan: a. mendokumentasikan secara digital melalui JDIH Kemenkes; dan b. mendokumentasikan secara manual sesuai dengan ketentuan peraturan perundang-undangan."
+    },
+    {
+        "pertanyaan": "Bolehkah pengelolaan JDIH Kemenkes didanai melalui sumber lain di luar anggaran pendapatan dan belanja negara?",
+        "jawaban_asli": "<think>\n\n</think>\n\nBoleh. Penggunaan rumusan “dan/atau” dalam Pasal 10 memungkinkan pendanaan bersumber dari pihak atau sumber lain tanpa membebankan anggaran pendapatan dan belanja negara, dengan syarat sumber itu sah sesuai peraturan perundang-undangan.",
+        "jawaban_model": "<think>\n\n</think>\n\nBoleh. Pasal 10 menggunakan frasa “dan/atau”, sehingga pendanaan dapat berasal dari sumber lain tanpa menggunakan anggaran pendapatan dan belanja negara, dengan ketentuan bahwa sumber lain tersebut sah berdasarkan ketentuan peraturan perundang-undangan."
+    },
+    {
+        "pertanyaan": "Siapa yang dimaksud dengan Menteri dalam peraturan ini?",
+        "jawaban_asli": "<think>\n\n</think>\n\nSebutan Menteri dalam peraturan ini merujuk pada Menteri yang menyelenggarakan urusan pemerintahan di bidang kesehatan, sesuai dengan Pasal 1 angka 7.",
+        "jawaban_model": "<think>\n\n</think>\n\nDalam peraturan ini, istilah Menteri merujuk pada Menteri yang bertanggung jawab menyelenggarakan urusan pemerintahan di bidang kesehatan, sebagaimana diatur dalam Pasal 1 angka 7."
+    },
+    {
+        "pertanyaan": "Apakah daftar produk hukum nonperaturan dalam definisi Dokumen Hukum harus dipahami sebagai daftar yang bersifat tertutup?",
+        "jawaban_asli": "<think>\n\n</think>\n\nTidak. Frasa “meliputi namun tidak terbatas pada” sebagaimana tercantum dalam Pasal 1 angka 3 menunjukkan bahwa daftar tersebut tidak bersifat tertutup.",
+        "jawaban_model": "<think>\n\n</think>\n\nTidak. Pasal 1 angka 3 menggunakan frasa “meliputi namun tidak terbatas pada”, sehingga daftar tersebut bersifat terbuka."
+    },
+    {
+        "pertanyaan": "Dalam menjalankan tugasnya, apa saja peran Anggota JDIH Kemenkes yang ditentukan oleh Pasal 5 ayat (2)?",
+        "jawaban_asli": "<think>\n\n</think>\n\nPasal 5 ayat (2) menentukan bahwa Anggota JDIH Kemenkes berperan dalam: a. mengumpulkan, mengolah, menyimpan, melestarikan, dan mendayagunakan Dokumen Hukum dan Informasi Hukum di lingkungan masing-masing; b. menyediakan sumber daya manusia; dan c. menyampaikan laporan kepada Pusat JDIH Kemenkes sekurang-kurangnya 1 (satu) kali dalam satu tahun.",
+        "jawaban_model": "<think>\n\n</think>\n\nPasal 5 ayat (2) menetapkan bahwa Anggota JDIH Kemenkes berfungsi untuk: a. mengumpulkan, mengolah, menyimpan, melestarikan, dan mendayagunakan Dokumen Hukum serta Informasi Hukum di lingkungan masing-masing; b. menyediakan sumber daya manusia; dan c. menyampaikan laporan kepada Pusat JDIH Kemenkes sekurang-kurangnya 1 (satu) kali setiap tahun."
+    },
+    {
+        "pertanyaan": "Bagaimana keterhubungan website JDIH Kemenkes dengan website Kementerian Kesehatan dan Pusat JDIHN?",
+        "jawaban_asli": "<think>\n\n</think>\n\nMenurut Pasal 6 ayat (5), website jdih.kemkes.go.id terhubung dengan situs website Kementerian Kesehatan dan terintegrasi dengan situs website Pusat JDIHN.",
+        "jawaban_model": "<think>\n\n</think>\n\nSesuai dengan Pasal 6 ayat (5), website jdih.kemkes.go.id terhubung dengan website Kementerian Kesehatan dan terintegrasi dengan website Pusat JDIHN."
+    },
+    {
+        "pertanyaan": "Mohon jelaskan arti Informasi Hukum.",
+        "jawaban_asli": "<think>\n\n</think>\n\nYang dimaksud dengan Informasi Hukum adalah semua data dan keterangan yang dimuat di dalam Dokumen Hukum sebagaimana ditetapkan dalam Pasal 1 angka 4.",
+        "jawaban_model": "<think>\n\n</think>\n\nInformasi Hukum berarti semua data dan keterangan yang terdapat dalam Dokumen Hukum sebagaimana didefinisikan dalam Pasal 1 angka 4."
+    },
+    {
+        "pertanyaan": "Apa saja sekretariat yang menjadi bagian dari anggota JDIH Kemenkes?",
+        "jawaban_asli": "<think>\n\n</think>\n\nKetentuan Pasal 3 ayat (4) menyatakan bahwa anggota JDIH Kemenkes terdiri atas: a. Sekretariat Direktorat Jenderal Kesehatan Masyarakat; b. Sekretariat Direktorat Jenderal Pencegahan dan Pengendalian Penyakit; c. Sekretariat Direktorat Jenderal Pelayanan Kesehatan; d. Sekretariat Direktorat Jenderal Kefarmasian dan Alat Kesehatan; e. Sekretariat Direktorat Jenderal Tenaga Kesehatan; f. Sekretariat Inspektorat Jenderal; g. Sekretariat Badan Kebijakan dan Pembangunan Kesehatan; dan h. Sekretariat Konsil.",
+        "jawaban_model": "<think>\n\n</think>\n\nSekretariat JDIH Kemenkes dan Pusat JDIHN menjadi bagian dari anggota JDIH Kemenkes, sebagaimana diatur dalam Pasal 4 ayat (2) huruf c."
+    },
+    {
+        "pertanyaan": "Apa saja bentuk produk hukum yang termasuk dalam Dokumen Hukum?",
+        "jawaban_asli": "<think>\n\n</think>\n\nBerdasarkan Pasal 1 angka 3, Dokumen Hukum meliputi produk hukum berupa peraturan perundang-undangan dan produk hukum selain peraturan perundang-undangan. Produk hukum selain peraturan perundang-undangan tersebut mencakup, antara lain, putusan pengadilan, yurisprudensi, monografi hukum, artikel majalah hukum, buku hukum, penelitian hukum, pengkajian hukum, naskah akademis, serta rancangan peraturan perundang-undangan.",
+        "jawaban_model": "<think>\n\n</think>\n\nBentuk produk hukum yang termasuk dalam Dokumen Hukum adalah Peraturan Perundang-undangan, produk hukum lain, monografi hukum, artikel majalah hukum, buku hukum, penelitian hukum, pengkajian hukum, naskah akademis, dan rancangan peraturan perundang-undangan. Hal ini tercantum dalam Pasal 1 angka 3."
+    },
+    {
+        "pertanyaan": "Dapatkah dijelaskan unsur-unsur organisasi pengelola JDIH Kemenkes?",
+        "jawaban_asli": "<think>\n\n</think>\n\nBerdasarkan ketentuan dalam Pasal 3 ayat (2), organisasi pengelola JDIH Kemenkes tersusun dari Pusat JDIH Kemenkes dan Anggota JDIH Kemenkes.",
+        "jawaban_model": "<think>\n\n</think>\n\nUnsur-unsur organisasi pengelola JDIH Kemenkes, sebagaimana diatur dalam Pasal 3 ayat (2), meliputi: a. Pusat JDIH Kemenkes; dan b. Anggota JDIH Kemenkes."
+    },
+    {
+        "pertanyaan": "Sebutkan pengaturan yang terdapat dalam Pasal 9.",
+        "jawaban_asli": "<think>\n\n</think>\n\nPasal 9\n\n(1) Pusat JDIH Kemenkes berkewajiban melakukan monitoring dan evaluasi terhadap:\n\na. pelaksanaan pengelolaan JDIH Kemenkes; dan\n\nb. pelaksanaan tugas dan fungsi anggota JDIH Kemenkes.\n\n(2) Monitoring dan evaluasi sebagaimana dimaksud pada ayat (1) dilaksanakan sekurang-kurangnya setiap 1 (satu) tahun.",
+        "jawaban_model": "<think>\n\n</think>\n\nPasal 9\n\n(1) Untuk mendukung pengelolaan dokumentasi dan Informasi Hukum sebagaimana dimaksud dalam Pasal 8, dibentuk tim teknis JDIH Kemenkes.\n\n(2) Tim teknis JDIH Kemenkes tersebut terdiri atas unsur pusat JDIH Kemenkes, anggota JDIH Kemenkes, serta Pusat Data dan Teknologi Informasi.\n\n(3) Dalam pengelolaan dokumentasi dan Informasi Hukum sebagaimana dimaksud pada ayat (1), tim teknis dapat melibatkan Pusat JDIHN dan/atau kementerian/lembaga terkait.\n\n(4) Tim teknis JDIH Kemenkes sebagaimana dimaksud pada ayat (1) ditetapkan berdasarkan Keputusan Sekretaris Jenderal."
+    },
+    {
+        "pertanyaan": "Atas dasar keputusan siapa tim teknis JDIH Kemenkes ditetapkan?",
+        "jawaban_asli": "<think>\n\n</think>\n\nSesuai Pasal 7 ayat (4), tim teknis JDIH Kemenkes ditetapkan melalui Keputusan Sekretaris Jenderal.",
+        "jawaban_model": "<think>\n\n</think>\n\nBerdasarkan Pasal 7 ayat (4), tim teknis JDIH Kemenkes ditetapkan dengan Keputusan Sekretaris Jenderal."
+    },
+    {
+        "pertanyaan": "Apa saja jenis lembaga peradilan yang putusannya dikategorikan sebagai putusan atau yurisprudensi di JDIH Kemenkes?",
+        "jawaban_asli": "<think>\n\n</think>\n\nPasal 8 ayat (8) mencakup putusan Mahkamah Konstitusi, putusan Mahkamah Agung, serta putusan peradilan lainnya.",
+        "jawaban_model": "<think>\n\n</think>\n\nJenis lembaga peradilan yang dimaksud meliputi peradilan umum, peradilan tata usaha negara, dan peradilan lainnya. Ketentuan ini tercantum dalam Pasal 8 ayat (3) huruf d."
+    },
+    {
+        "pertanyaan": "Dari pihak atau unsur apa saja tim teknis JDIH Kemenkes berasal?",
+        "jawaban_asli": "<think>\n\n</think>\n\nTim teknis JDIH Kemenkes berasal dari unsur pusat JDIH Kemenkes, anggota JDIH Kemenkes, dan Pusat Data dan Teknologi Informasi, sebagaimana diatur dalam Pasal 7 ayat (2).",
+        "jawaban_model": "<think>\n\n</think>\n\nBerdasarkan Pasal 7 ayat (3), tim teknis JDIH Kemenkes berasal dari pusat JDIH Kemenkes, anggota JDIH Kemenkes, dan Pusat Data dan Teknologi Informasi."
+    },
+    {
+        "pertanyaan": "Berapa kali minimum pelaksanaan monitoring serta evaluasi JDIH Kemenkes dalam satu tahun?",
+        "jawaban_asli": "<think>\n\n</think>\n\nPelaksanaan monitoring dan evaluasi JDIH Kemenkes ditetapkan paling sedikit 1 (satu) kali per tahun, sesuai Pasal 9 ayat (2).",
+        "jawaban_model": "<think>\n\n</think>\n\nPelaksanaan monitoring dan evaluasi JDIH Kemenkes paling sedikit 1 (satu) kali dalam setahun, sebagaimana diatur dalam Pasal 9 ayat (2)."
+    },
+    {
+        "pertanyaan": "Dalam JDIH Kemenkes, peraturan perundang-undangan apa saja yang dikelola?",
+        "jawaban_asli": "<think>\n\n</think>\n\nMenurut ketentuan Pasal 8 ayat (2), peraturan yang dikelola meliputi: a. undang-undang; b. peraturan pemerintah pengganti undang-undang; c. peraturan pemerintah; d. peraturan presiden; e. peraturan menteri; dan f. Peraturan Perundang-undangan yang telah diterjemahkan ke dalam bahasa asing.",
+        "jawaban_model": "<think>\n\n</think>\n\nBerdasarkan Pasal 8 ayat (3), peraturan perundang-undangan yang dikelola adalah: a. undang-undang; b. peraturan pemerintah pengganti undang-undang; c. peraturan pemerintah; d. peraturan presiden; e. peraturan menteri; dan f. Peraturan Perundang-undangan yang diterjemahkan ke dalam bahasa asing."
+    },
+    {
+        "pertanyaan": "Apa saja unit kerja yang termasuk dalam keanggotaan JDIH Kementerian Kesehatan?",
+        "jawaban_asli": "<think>\n\n</think>\n\nSesuai dengan ketentuan Pasal 3 ayat (4), keanggotaan JDIH Kemenkes terdiri atas: a. Sekretariat Direktorat Jenderal Kesehatan Masyarakat; b. Sekretariat Direktorat Jenderal Pencegahan dan Pengendalian Penyakit; c. Sekretariat Direktorat Jenderal Pelayanan Kesehatan; d. Sekretariat Direktorat Jenderal Kefarmasian dan Alat Kesehatan; e. Sekretariat Direktorat Jenderal Tenaga Kesehatan; f. Sekretariat Inspektorat Jenderal; g. Sekretariat Badan Kebijakan dan Pembangunan Kesehatan; serta h. Sekretariat Konsil.",
+        "jawaban_model": "<think>\n\n</think>\n\nUnit kerja yang termasuk dalam keanggotaan JDIH Kemenkes adalah: Sekretariat Direktorat Jenderal Kesehatan Masyarakat; Sekretariat Direktorat Jenderal Pencegahan dan Pengendalian Penyakit; Sekretariat Direktorat Jenderal Pelayanan Kesehatan; Sekretariat Direktorat Jenderal Kefarmasian dan Alat Kesehatan; Sekretariat Direktorat Jenderal Tenaga Kesehatan; Sekretariat Inspektorat Jenderal; Sekretariat Badan Kebijakan dan Pembangunan Kesehatan; dan Sekretariat Konsil."
+    },
+    {
+        "pertanyaan": "Unit kerja apakah yang bertugas menjalankan Pusat JDIH Kemenkes?",
+        "jawaban_asli": "<think>\n\n</think>\n\nBiro Hukum bertugas menjalankan Pusat JDIH Kemenkes. Ketentuan mengenai hal ini tercantum dalam Pasal 3 ayat (3).",
+        "jawaban_model": "<think>\n\n</think>\n\nUnit kerja yang bertugas menjalankan Pusat JDIH Kemenkes adalah Biro Hukum, sebagaimana diatur dalam Pasal 3 ayat (3)."
+    },
+    {
+        "pertanyaan": "Apa saja yang menjadi sasaran monitoring dan evaluasi yang dilakukan oleh Pusat JDIH Kemenkes?",
+        "jawaban_asli": "<think>\n\n</think>\n\nBerdasarkan Pasal 9 ayat (1), monitoring dan evaluasi mencakup: a. pelaksanaan pengelolaan JDIH Kemenkes; dan b. pelaksanaan tugas serta fungsi anggota JDIH Kemenkes.",
+        "jawaban_model": "<think>\n\n</think>\n\nBerdasarkan Pasal 9 ayat (1), sasaran monitoring dan evaluasi meliputi: a. pelaksanaan pengelolaan JDIH Kemenkes; dan b. pelaksanaan tugas dan fungsi anggota JDIH Kemenkes."
+    },
+    {
+        "pertanyaan": "Apa saja tugas dan fungsi yang dijalankan oleh Pusat JDIH Kemenkes?",
+        "jawaban_asli": "<think>\n\n</think>\n\nPusat JDIH Kemenkes menjalankan fungsi-fungsi berikut sesuai Pasal 4 ayat (2): a. menyelenggarakan layanan konsultasi untuk menyelesaikan permasalahan Anggota JDIH Kemenkes; b. memberikan sosialisasi mengenai kebijakan dan pengelolaan teknis dokumentasi serta Informasi Hukum kepada Anggota JDIH Kemenkes; c. melakukan pembinaan dan pengembangan terhadap sumber daya manusia pengelola JDIH Kemenkes; d. menyediakan sarana dan prasarana yang diperlukan bagi pengelolaan JDIH Kemenkes; e. melaksanakan kerja sama dengan Pusat JDIHN; f. mengembangkan pengelolaan JDIH Kemenkes berbasis elektronik dengan memanfaatkan teknologi informasi dan komunikasi; g. melaksanakan monitoring dan evaluasi; serta h. menyampaikan laporan penyelenggaraan JDIH Kemenkes kepada Menteri melalui Sekretaris Jenderal dan Pusat JDIHN secara periodik setiap bulan Desember.",
+        "jawaban_model": "<think>\n\n</think>\n\nBerdasarkan Pasal 4 ayat (2), Pusat JDIH Kemenkes memiliki tugas berupa: a. merumuskan kebijakan pembinaan, pengelolaan, dan pengembangan JDIH Kemenkes; b. memberikan rujukan dokumentasi dan Informasi Hukum Kementerian Kesehatan; serta c. mengelola Dokumen Hukum dan Informasi Hukum yang diterbitkan oleh unit kerja selain unit kerja Eselon I anggota JDIH Kemenkes."
+    },
+    {
+        "pertanyaan": "Jelaskan bunyi Pasal 3 yang mengatur struktur organisasi pengelola JDIH Kemenkes.",
+        "jawaban_asli": "<think>\n\n</think>\n\nPasal 3\n\n(1) Organisasi pengelola JDIH Kemenkes dibentuk dalam rangka menyelenggarakan pengelolaan JDIH Kemenkes.\n\n(2) Struktur organisasi pengelola JDIH Kemenkes terdiri atas:\n\na. Pusat JDIH Kemenkes; dan\nb. Anggota JDIH Kemenkes.\n\n(3) Biro Hukum bertindak sebagai pelaksana Pusat JDIH Kemenkes sebagaimana dimaksud pada ayat (2) huruf a.\n\n(4) Anggota JDIH Kemenkes sebagaimana dimaksud pada ayat (2) huruf b meliputi:\n\na. Sekretariat Direktorat Jenderal Kesehatan Masyarakat;\nb. Sekretariat Direktorat Jenderal Pencegahan dan Pengendalian Penyakit;\nc. Sekretariat Direktorat Jenderal Pelayanan Kesehatan;\nd. Sekretariat Direktorat Jenderal Kefarmasian dan Alat Kesehatan;\ne. Sekretariat Direktorat Jenderal Tenaga Kesehatan;\nf. Sekretariat Inspektorat Jenderal;\ng. Sekretariat Badan Kebijakan dan Pembangunan Kesehatan; dan\nh. Sekretariat Konsil.",
+        "jawaban_model": "<think>\n\n</think>\n\nPasal 3\n\n(1) Untuk menyelenggarakan pengelolaan JDIH Kemenkes, dibentuk organisasi pengelola JDIH Kemenkes.\n\n(2) Organisasi pengelola JDIH Kemenkes sebagaimana dimaksud pada ayat (1) terdiri atas:\n\na. Pusat JDIH Kemenkes; dan\nb. Anggota JDIH Kemenkes.\n\n(3) Pusat JDIH Kemenkes sebagaimana dimaksud pada ayat (2) huruf a dilaksanakan oleh Biro Hukum.\n\n(4) Anggota JDIH Kemenkes sebagaimana dimaksud pada ayat (2) huruf b terdiri atas:\n\na. Sekretariat Direktorat Jenderal Kesehatan Masyarakat;\nb. Sekretariat Direktorat Jenderal Pencegahan dan Pengendalian Penyakit;\nc. Sekretariat Direktorat Jenderal Pelayanan Kesehatan;\nd. Sekretariat Direktorat Jenderal Kefarmasian dan Alat Kesehatan;\ne. Sekretariat Direktorat Jenderal Tenaga Kesehatan;\nf. Sekretariat Inspektorat Jenderal;\ng. Sekretariat Badan Kebijakan dan Pembangunan Kesehatan; dan\nh. Sekretariat Konsil."
+    },
+    {
+        "pertanyaan": "Apa ketentuan mengenai frekuensi minimal monitoring dan evaluasi JDIH Kemenkes?",
+        "jawaban_asli": "<think>\n\n</think>\n\nKetentuannya adalah monitoring dan evaluasi harus dilaksanakan sekurang-kurangnya 1 (satu) kali setiap tahun sebagaimana tercantum dalam Pasal 9 ayat (2).",
+        "jawaban_model": "<think>\n\n</think>\n\nPasal 9 ayat (2) huruf c menetapkan bahwa monitoring dan evaluasi wajib dilakukan sekurang-kurangnya 1 (satu) kali dalam setahun."
+    },
+    {
+        "pertanyaan": "Menurut JDIH Kemenkes, putusan atau yurisprudensi dapat berasal dari lembaga peradilan apa saja?",
+        "jawaban_asli": "<think>\n\n</think>\n\nSesuai Pasal 8 ayat (8), putusan tersebut meliputi putusan Mahkamah Konstitusi, putusan Mahkamah Agung, dan putusan dari lembaga peradilan lainnya.",
+        "jawaban_model": "<think>\n\n</think>\n\nMenurut Pasal 8 ayat (3) huruf f, putusan atau yurisprudensi dapat berasal dari Mahkamah Konstitusi, Mahkamah Agung, dan/atau lembaga peradilan lainnya."
+    },
+    {
+        "pertanyaan": "Di mana peraturan ini harus ditempatkan berdasarkan ketentuan penutup, dan untuk apa pengundangannya dilakukan?",
+        "jawaban_asli": "<think>\n\n</think>\n\nKetentuan penutup yang terletak setelah Pasal 11 memerintahkan agar Peraturan Menteri ini ditempatkan dalam Berita Negara Republik Indonesia agar informasinya diketahui oleh setiap orang.",
+        "jawaban_model": "<think>\n\n</think>\n\nBerdasarkan ketentuan penutup setelah Pasal 11, peraturan ini ditempatkan dalam Berita Negara Republik Indonesia untuk tujuan pengundangan."
+    },
+    {
+        "pertanyaan": "Apa yang disebut sebagai JDIH Kemenkes?",
+        "jawaban_asli": "<think>\n\n</think>\n\nYang dimaksud dengan JDIH Kemenkes adalah Jaringan Dokumentasi dan Informasi Hukum yang diselenggarakan di lingkungan Kementerian Kesehatan. JDIH merupakan sistem yang mengatur pengelolaan dan pemanfaatan bersama dokumen hukum serta informasi hukum di bidang kesehatan secara tertib, terpadu, dan berkelanjutan. Selain itu, JDIH berfungsi menyediakan pelayanan informasi hukum yang lengkap, akurat, mudah, serta cepat. Pengertian tersebut terdapat dalam Pasal 1 angka 2.",
+        "jawaban_model": "<think>\n\n</think>\n\nJDIH Kemenkes adalah Jaringan Dokumentasi dan Informasi Hukum di lingkungan Kementerian Kesehatan. JDIH ini merupakan sistem pengelolaan dan pendayagunaan bersama dokumen hukum serta informasi hukum di bidang kesehatan secara tertib, terpadu, dan berkesinambungan. Selain itu, JDIH juga berfungsi sebagai sarana pelayanan informasi hukum yang lengkap, akurat, mudah, dan cepat. Pengertian ini tercantum dalam Pasal 1 angka 2."
+    },
+    {
+        "pertanyaan": "Anggota JDIH Kemenkes harus melaporkan kegiatannya kepada siapa dan dengan frekuensi minimum berapa kali?",
+        "jawaban_asli": "<think>\n\n</think>\n\nAnggota JDIH Kemenkes menyampaikan laporan kepada Pusat JDIH Kemenkes paling sedikit 1 (satu) kali setiap tahun. Hal ini sebagaimana ditetapkan dalam Pasal 5 ayat (2) huruf c.",
+        "jawaban_model": "<think>\n\n</think>\n\nAnggota JDIH Kemenkes harus melaporkan kegiatannya kepada Pusat JDIH Kemenkes dengan frekuensi minimum sekali dalam satu tahun. Ketentuan ini tercantum dalam Pasal 5 ayat (2) huruf c."
+    },
+    {
+        "pertanyaan": "Apakah peraturan presiden dan keputusan presiden dikelompokkan dalam kategori dokumen yang sama di JDIH Kemenkes?",
+        "jawaban_asli": "<think>\n\n</think>\n\nTidak. Peraturan presiden termasuk kategori Peraturan Perundang-undangan berdasarkan Pasal 8 ayat (2) huruf d, sedangkan keputusan presiden termasuk kategori produk hukum lain berdasarkan Pasal 8 ayat (3) huruf a.",
+        "jawaban_model": "<think>\n\n</think>\n\nTidak. Peraturan Presiden dikelompokkan dalam kategori Peraturan Perundang-undangan berdasarkan Pasal 8 ayat (2) huruf d, sedangkan Keputusan Presiden dikelompokkan dalam kategori produk hukum lain berdasarkan Pasal 8 ayat (3) huruf a."
+    },
+    {
+        "pertanyaan": "Unit-unit mana yang secara resmi tercantum sebagai anggota JDIH Kemenkes?",
+        "jawaban_asli": "<think>\n\n</think>\n\nUnit yang secara resmi tercantum sebagai anggota JDIH Kemenkes berdasarkan Pasal 3 ayat (4) adalah: a. Sekretariat Direktorat Jenderal Kesehatan Masyarakat; b. Sekretariat Direktorat Jenderal Pencegahan dan Pengendalian Penyakit; c. Sekretariat Direktorat Jenderal Pelayanan Kesehatan; d. Sekretariat Direktorat Jenderal Kefarmasian dan Alat Kesehatan; e. Sekretariat Direktorat Jenderal Tenaga Kesehatan; f. Sekretariat Inspektorat Jenderal; g. Sekretariat Badan Kebijakan dan Pembangunan Kesehatan; serta h. Sekretariat Konsil.",
+        "jawaban_model": "<think>\n\n</think>\n\nBerdasarkan Pasal 3 ayat (4), unit yang tercantum sebagai anggota JDIH Kemenkes adalah: a. Sekretariat Direktorat Jenderal Kesehatan Masyarakat; b. Sekretariat Direktorat Jenderal Pencegahan dan Pengendalian Penyakit; c. Sekretariat Direktorat Jenderal Pelayanan Kesehatan; d. Sekretariat Direktorat Jenderal Kefarmasian dan Alat Kesehatan; e. Sekretariat Direktorat Jenderal Tenaga Kesehatan; f. Sekretariat Inspektorat Jenderal; g. Sekretariat Badan Kebijakan dan Pembangunan Kesehatan; dan h. Sekretariat Konsil."
+    },
+    {
+        "pertanyaan": "Apa alasan dibentuknya tim teknis pada JDIH Kemenkes?",
+        "jawaban_asli": "<think>\n\n</think>\n\nAlasan pembentukan tim teknis JDIH Kemenkes adalah untuk mendukung pengelolaan dokumentasi dan informasi hukum berdasarkan ketentuan Pasal 7 ayat (1).",
+        "jawaban_model": "<think>\n\n</think>\n\nTim teknis dibentuk untuk mendukung pengelolaan dokumentasi dan informasi hukum sebagaimana dimaksud dalam Pasal 7 ayat (1)."
+    },
+    {
+        "pertanyaan": "Silakan kutip ketentuan Pasal 9.",
+        "jawaban_asli": "<think>\n\n</think>\n\nPasal 9\n\n(1) Pusat JDIH Kemenkes melaksanakan kegiatan monitoring dan evaluasi atas:\n\na. penyelenggaraan pengelolaan JDIH Kemenkes; dan\n\nb. pelaksanaan tugas serta fungsi anggota JDIH Kemenkes.\n\n(2) Pelaksanaan monitoring dan evaluasi sebagaimana dimaksud pada ayat (1) dilakukan paling sedikit satu kali dalam jangka waktu satu tahun.",
+        "jawaban_model": "<think>\n\n</think>\n\nPasal 9\n\n(1) Untuk mendukung pengelolaan dokumentasi dan Informasi Hukum sebagaimana dimaksud pada Pasal 8, dibentuk tim teknis JDIH Kemenkes.\n\n(2) Tim teknis JDIH Kemenkes tersebut terdiri atas unsur pusat JDIH Kemenkes, anggota JDIH Kemenkes, serta Pusat Data dan Teknologi Informasi.\n\n(3) Dalam pengelolaan dokumentasi dan Informasi Hukum sebagaimana dimaksud pada ayat (1), tim teknis dapat melibatkan Pusat JDIHN dan/atau kementerian/lembaga terkait.\n\n(4) Tim teknis JDIH Kemenkes sebagaimana dimaksud pada ayat (1) dibentuk melalui keputusan Sekretaris Jenderal."
+    },
+    {
+        "pertanyaan": "Apa saja cakupan fungsi Pusat JDIH Kemenkes berdasarkan Pasal 4 ayat (2)?",
+        "jawaban_asli": "<think>\n\n</think>\n\nCakupan fungsi Pusat JDIH Kemenkes berdasarkan Pasal 4 ayat (2) adalah: a. memberikan konsultasi atas masalah yang dihadapi Anggota JDIH Kemenkes; b. menyelenggarakan sosialisasi kebijakan dan pengelolaan teknis dokumentasi serta Informasi Hukum kepada Anggota JDIH Kemenkes; c. melakukan pembinaan dan pengembangan sumber daya manusia pengelola JDIH Kemenkes; d. menyediakan sarana dan prasarana pendukung pengelolaan JDIH Kemenkes; e. menjalin kerja sama dengan Pusat JDIHN; f. menyelenggarakan pengelolaan JDIH Kemenkes berbasis elektronik dengan memanfaatkan teknologi informasi dan komunikasi; g. melaksanakan monitoring dan evaluasi; dan h. memberikan laporan penyelenggaraan JDIH Kemenkes kepada Menteri melalui Sekretaris Jenderal dan Pusat JDIHN secara rutin setiap tahun pada bulan Desember.",
+        "jawaban_model": "<think>\n\n</think>\n\nPasal 4 ayat (2) menetapkan bahwa cakupan fungsi Pusat JDIH Kemenkes meliputi: a. pelayanan konsultasi terhadap permasalahan Anggota JDIH Kemenkes; b. sosialisasi kebijakan dan pengelolaan teknis dokumentasi serta Informasi Hukum kepada Anggota JDIH Kemenkes; c. pembinaan dan pengembangan sumber daya manusia pengelola JDIH Kemenkes; d. penyiapan sarana dan prasarana pendukung pengelolaan JDIH Kemenkes; e. kerja sama dengan Pusat JDIHN; f. pengelolaan JDIH Kemenkes berbasis elektronik dengan memanfaatkan teknologi informasi dan komunikasi; g. monitoring dan evaluasi; dan h. pelaporan penyelenggaraan JDIH Kemenkes kepada Menteri melalui Sekretaris Jenderal dan Pusat JDIHN, yang dilakukan setiap tahun secara periodik pada bulan Desember."
+    },
+    {
+        "pertanyaan": "Apa saja bentuk pelaksanaan fungsi Anggota JDIH Kemenkes menurut peraturan tersebut?",
+        "jawaban_asli": "<think>\n\n</think>\n\nMenurut Pasal 5 ayat (2), bentuk fungsi Anggota JDIH Kemenkes mencakup: a. mengumpulkan, mengolah, menyimpan, melestarikan, dan mendayagunakan Dokumen Hukum serta Informasi Hukum di lingkungan masing-masing; b. menyediakan sumber daya manusia; dan c. memberikan laporan kepada Pusat JDIH Kemenkes setidak-tidaknya 1 (satu) kali dalam setahun.",
+        "jawaban_model": "<think>\n\n</think>\n\nMenurut Pasal 5 ayat (2), pelaksanaan fungsi Anggota JDIH Kemenkes berbentuk: a. pengumpulan, pengolahan, penyimpanan, pelestarian, dan pendayagunaan Dokumen Hukum dan Informasi Hukum di lingkungan masing-masing; b. penyediaan sumber daya manusia; dan c. penyampaian laporan kepada Pusat JDIH Kemenkes sekurang-kurangnya 1 (satu) kali setiap tahun."
+    },
+    {
+        "pertanyaan": "Menurut ketentuan yang berlaku, siapa yang mengelola dokumentasi dan Informasi Hukum di lingkungan JDIH Kemenkes?",
+        "jawaban_asli": "<think>\n\n</think>\n\nBerdasarkan Pasal 6 ayat (1), pengelolaan dokumentasi dan Informasi Hukum dilakukan oleh Pusat JDIH Kemenkes serta anggota JDIH Kemenkes.",
+        "jawaban_model": "<think>\n\n</think>\n\nPusat JDIH Kemenkes dan para anggota JDIH Kemenkes merupakan pihak yang melaksanakan pengelolaan dokumentasi dan Informasi Hukum, sebagaimana diatur dalam Pasal 6 ayat (1)."
+    },
+    {
+        "pertanyaan": "Apa syarat agar suatu putusan dapat diakui sebagai dokumen putusan atau yurisprudensi dalam JDIH Kemenkes ditinjau dari bidang perkara dan kekuatan hukumnya?",
+        "jawaban_asli": "<think>\n\n</think>\n\nSyaratnya adalah putusan tersebut berkaitan dengan bidang kesehatan, diterbitkan oleh pengadilan, dan telah berkekuatan hukum tetap. Ketentuan mengenai hal ini terdapat dalam Pasal 8 ayat (9).",
+        "jawaban_model": "<think>\n\n</think>\n\nSyaratnya adalah putusan tersebut harus menyangkut urusan kesehatan atau terkait dengan bidang kesehatan dan telah memperoleh kekuatan hukum tetap. Dasarnya adalah Pasal 8 ayat (7)."
+    },
+    {
+        "pertanyaan": "Bagaimana bentuk pengelolaan JDIH Kemenkes menurut ketentuan yang berlaku, dan teknologi apa yang dipakai?",
+        "jawaban_asli": "<think>\n\n</think>\n\nMenurut ketentuan Pasal 4 ayat (2) huruf f, JDIH Kemenkes diselenggarakan melalui pengelolaan berbasis elektronik dengan memanfaatkan teknologi informasi dan komunikasi.",
+        "jawaban_model": "<think>\n\n</think>\n\nMenurut Pasal 4 ayat (2) huruf f, pengelolaan JDIH Kemenkes berbasis elektronik dengan memanfaatkan teknologi informasi dan komunikasi."
+    },
+    {
+        "pertanyaan": "Apa maksud dan tujuan pembentukan tim teknis JDIH Kemenkes?",
+        "jawaban_asli": "<think>\n\n</think>\n\nTim teknis JDIH Kemenkes dibentuk dengan tujuan membantu pengelolaan dokumentasi serta informasi hukum, sebagaimana ditetapkan dalam Pasal 7 ayat (1).",
+        "jawaban_model": "<think>\n\n</think>\n\nMaksud pembentukan tim teknis JDIH Kemenkes adalah mendukung pengelolaan dokumentasi dan informasi hukum. Tujuan pembentukannya adalah untuk menyelenggarakan pengelolaan dokumentasi dan informasi hukum sebagaimana dimaksud dalam Pasal 7 ayat (1)."
+    },
+    {
+        "pertanyaan": "Apa saja kategori Peraturan Perundang-undangan yang tercakup dalam pengelolaan JDIH Kemenkes?",
+        "jawaban_asli": "<think>\n\n</think>\n\nMengacu pada Pasal 8 ayat (2), kategori Peraturan Perundang-undangan yang tercakup meliputi: a. undang-undang; b. peraturan pemerintah pengganti undang-undang; c. peraturan pemerintah; d. peraturan presiden; e. peraturan menteri; dan f. Peraturan Perundang-undangan dalam versi terjemahan bahasa asing.",
+        "jawaban_model": "<think>\n\n</think>\n\nKategori Peraturan Perundang-undangan yang tercakup dalam pengelolaan JDIH Kemenkes meliputi: a. undang-undang; b. peraturan pemerintah pengganti undang-undang; c. peraturan pemerintah; d. peraturan presiden; e. peraturan menteri; dan f. Peraturan Perundang-undangan yang diterjemahkan ke dalam bahasa asing. Dasar pengaturan kategori tersebut adalah Pasal 8 ayat (3)."
+    },
+    {
+        "pertanyaan": "Sumber pendanaan apa yang diperbolehkan untuk pelaksanaan pengelolaan JDIH Kemenkes?",
+        "jawaban_asli": "<think>\n\n</think>\n\nMenurut Pasal 10, sumber pendanaan yang diperbolehkan adalah anggaran pendapatan dan belanja negara dan/atau sumber lain yang sah, sepanjang sesuai dengan ketentuan peraturan perundang-undangan.",
+        "jawaban_model": "<think>\n\n</think>\n\nSesuai Pasal 10, pendanaan pelaksanaan pengelolaan JDIH Kemenkes dapat bersumber dari anggaran pendapatan dan belanja negara dan/atau sumber lain yang sah sesuai dengan ketentuan peraturan perundang-undangan."
+    },
+    {
+        "pertanyaan": "Menurut ketentuan yang berlaku, apa saja yang dapat dikategorikan sebagai Dokumen Hukum?",
+        "jawaban_asli": "<think>\n\n</think>\n\nSesuai Pasal 1 angka 3, Dokumen Hukum adalah produk hukum yang berupa peraturan perundang-undangan atau produk hukum lainnya di luar peraturan perundang-undangan. Kategori terakhir tersebut meliputi, namun tidak terbatas pada, putusan pengadilan, yurisprudensi, monografi hukum, artikel dalam majalah hukum, buku hukum, penelitian hukum, pengkajian hukum, naskah akademis, dan rancangan peraturan perundang-undangan.",
+        "jawaban_model": "<think>\n\n</think>\n\nMenurut ketentuan yang berlaku, Dokumen Hukum adalah produk hukum yang berupa peraturan perundang-undangan atau produk hukum selain peraturan perundang-undangan. Produk hukum selain peraturan perundang-undangan tersebut antara lain putusan pengadilan, yurisprudensi, monografi hukum, artikel majalah hukum, buku hukum, penelitian hukum, pengkajian hukum, naskah akademis, dan rancangan peraturan perundang-undangan. Kategori ini tercantum dalam Pasal 1 angka 3."
+    },
+    {
+        "pertanyaan": "Dapatkah Anda menerangkan pengertian Informasi Hukum?",
+        "jawaban_asli": "<think>\n\n</think>\n\nInformasi Hukum merupakan keseluruhan data dan keterangan yang terdapat pada Dokumen Hukum, sebagaimana dimaksud dalam Pasal 1 angka 4.",
+        "jawaban_model": "<think>\n\n</think>\n\nInformasi Hukum berarti semua data dan keterangan yang terdapat dalam Dokumen Hukum sebagaimana dimaksud dalam Pasal 1 angka 3."
+    }
+]
