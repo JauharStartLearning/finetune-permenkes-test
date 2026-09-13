@@ -2,35 +2,69 @@
 
 # Qwen-8B LoRA - Permenkes (7 Epochs)
 
-Model ini adalah hasil *Supervised Fine-Tuning* (SFT) menggunakan metode LoRA (Parameter-Efficient Fine-Tuning) pada model *base* Qwen 8B. Model ini dilatih menggunakan dataset Permenkes (Peraturan Menteri Kesehatan) untuk memahami dan menjawab konteks regulasi kesehatan. 
+Model ini adalah hasil *Supervised Fine-Tuning* (SFT) menggunakan metode QLoRA (Parameter-Efficient Fine-Tuning) pada model *base* Qwen 8B 4bit. Model ini dilatih menggunakan dataset Permenkes (Peraturan Menteri Kesehatan Nomor 10 Tahun 2024). 
 
+## ⚙️ Proses Pembuatan Data Latih
+
+Penyusunan dataset dilakukan melalui dua tahapan utama untuk memastikan kualitas, keakuratan substansi, dan variasi kalimat:
+
+* **Tahap 1: Ekstraksi Q&A Basis (Unik)**
+  Pasangan Pertanyaan dan Jawaban (Q&A) diekstraksi dari setiap pasal Permenkes. Fokus utama pada tahap ini adalah mengamankan substansi hukum; setiap pertanyaan dipastikan memiliki inti pembahasan yang unik dan sepenuhnya berbeda satu sama lain (bukan sekadar variasi kalimat).
+  > **Hasil:** Diperoleh 70 pasangan Q&A basis yang 100% unik.
+
+* **Tahap 2: Augmentasi Data (Parafrase)**
+  Untuk memperkaya pemahaman model terhadap berbagai cara user bertanya, ke-70 pasangan Q&A basis tersebut diparafrase masing-masing sebanyak 10 variasi gaya bahasa.
+  > **Hasil Akhir:** Terkumpul 700 pasangan Q&A komprehensif yang siap digunakan untuk proses *training* model.
+
+  > Kode pembuatan data dapat dilihat di folder **Data-Generation-Code** 
+---
+## 🛠️ Proses FineTune Model
 Pelatihan dioptimalkan menggunakan pustaka **Unsloth** untuk efisiensi VRAM dan kecepatan *training*.
 
-## 📌 Informasi Model
-* **Base Model:** Qwen 8B
-* **Hugging Face Hub:** [Jauharul/qwen3-8b-lora-permenkes-7epoch](https://huggingface.co/Jauharul/qwen3-8b-lora-permenkes-7epoch)
-* **Library/Framework:** Unsloth, TRL, Hugging Face `transformers`, `peft`
+## 📌 Informasi & Spesifikasi Model
 
-## ⚙️ Konfigurasi LoRA
-Model ini menggunakan konfigurasi LoRA berikut untuk efisiensi:
-* **Rank (r):** 32
-* **LoRA Alpha:** 32
-* **Target Modules:** `q_proj`, `k_proj`, `v_proj`, `o_proj`, `gate_proj`, `up_proj`, `down_proj`
-* **Dropout:** 0 (Dioptimalkan)
-* **Bias:** none
+| Kategori | Keterangan |
+| :--- | :--- |
+| **Base Model** | Qwen 8B |
+| **Repository** | [Jauharul/qwen3-8b-lora-permenkes-7epoch](https://huggingface.co/Jauharul/qwen3-8b-lora-permenkes-7epoch) |
+| **Framework** | Unsloth, TRL, Hugging Face `transformers`, `peft` |
 
-## 📊 Hyperparameter Pelatihan
-* **Epochs:** 7
-* **Learning Rate:** 2e-4 (Linear Scheduler)
-* **Optimizer:** AdamW 8-bit
-* **Train Batch Size:** 4 per device (Gradient Accumulation: 4) -> *Effective Batch Size: 16*
-* **Eval Batch Size:** 2
-* **Warmup Steps:** 20
-* **Weight Decay:** 0.001
-* **Gradient Checkpointing:** "unsloth" (Menghemat ~30% VRAM)
-* **Tracking:** Weights & Biases (wandb)
 ---
 
+## ⚙️ Proses Fine-Tuning Model
+
+Pelatihan model dilakukan menggunakan teknik **QLoRA (Quantized Low-Rank Adaptation)** untuk memaksimalkan efisiensi komputasi tanpa mengorbankan performa bahasa model. Berikut adalah tahapan utamanya:
+
+* **Kuantisasi Model Dasar (4-bit):** Model Qwen 8B dimuat dalam presisi 4-bit menggunakan ekosistem Unsloth dan BitsAndBytes. Pendekatan ini menekan penggunaan VRAM secara drastis selama proses pelatihan.
+* **Injeksi Adapter LoRA:** Alih-alih memperbarui seluruh 8 Miliar parameter, pelatihan hanya difokuskan pada *adapter* kecil yang disematkan pada lapisan atensi dan *feed-forward* krusial.
+* **Akselerasi dengan Unsloth:** Proses *Supervised Fine-Tuning* (SFT) dieksekusi menggunakan pustaka TRL. Penggunaan fitur *Gradient Checkpointing* dari Unsloth memungkinkan pelatihan berjalan jauh lebih cepat sekaligus menghemat VRAM hingga 30%.
+* **Penggabungan dan Ekspor (GGUF):** Setelah model mencapai nilai *loss* evaluasi terendah pada *checkpoint* epoch ke-4, bobot LoRA digabungkan (*merged*) secara permanen ke model dasar 16-bit. Model akhir ini kemudian dikuantisasi ulang dan diekspor ke format **GGUF (`q4_k_m`)** agar siap digunakan untuk inferensi ringan di CPU.
+
+---
+
+## 📊 Konfigurasi Teknis & Hyperparameter
+
+Parameter teknis di bawah ini disetel untuk menyeimbangkan stabilitas pelatihan dan efisiensi memori.
+
+**Konfigurasi LoRA:**
+* **Rank (r) / Alpha:** 32 / 32
+* **Target Modules:** `q_proj`, `k_proj`, `v_proj`, `o_proj`, `gate_proj`, `up_proj`, `down_proj`
+* **Dropout / Bias:** 0 (Dioptimalkan) / None
+
+**Hyperparameter Pelatihan:**
+
+| Hyperparameter | Konfigurasi |
+| :--- | :--- |
+| **Epochs** | 7 |
+| **Learning Rate** | `2e-4` (Linear Scheduler) |
+| **Optimizer** | AdamW 8-bit |
+| **Train Batch Size** | 4 per device (Gradient Accumulation: 4) |
+| **Effective Batch Size** | 16 |
+| **Eval Batch Size** | 2 |
+| **Warmup Steps** | 20 |
+| **Weight Decay** | `0.001` |
+| **Gradient Checkpointing**| `unsloth` |
+| **Tracking** | Weights & Biases (wandb) |
 ## 📈 Hasil Pelatihan (Result)
 
 <p align="center">
