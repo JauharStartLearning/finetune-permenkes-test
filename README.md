@@ -54,6 +54,7 @@ Model ini menggunakan konfigurasi LoRA berikut untuk efisiensi:
 Anda bisa menjalankan model ini menggunakan **Unsloth** untuk kecepatan inference (2x lebih cepat):
 
 ```python
+!pip install unsloth
 from unsloth import FastLanguageModel
 
 # Load model dan tokenizer
