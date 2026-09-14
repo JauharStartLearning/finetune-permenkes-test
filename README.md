@@ -85,7 +85,7 @@ Parameter teknis di bawah ini disetel untuk menyeimbangkan stabilitas pelatihan 
 ## 🚀 Cara Menggunakan Model (Inference)
 
 **Cara 1: Cara Termudah (Menggunakan Kaggle)**
-Jalankan kode langsung di browser Anda tanpa perlu menginstal apa pun di komputer lokal.
+Jalankan kode langsung di browser Anda tanpa perlu menginstal apa pun di komputer lokal. (pastikan gunakan gpu T4 dengan cara click Setting > Accelerator > GPU T4)
 [![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/notebooks/welcome?src=https://github.com/JauharStartLearning/finetune-permenkes-test/blob/main/inference-before-after-ft.ipynb)
 
 **Cara 2: Jalankan di Komputer Lokal**
