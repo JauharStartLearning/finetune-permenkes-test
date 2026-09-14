@@ -80,7 +80,7 @@ Parameter teknis di bawah ini disetel untuk menyeimbangkan stabilitas pelatihan 
 📌 *Catatan: Hasil inferensi dari model setelah tahap fine-tuning ini dapat dilihat selengkapnya pada file **`Test-Result-FineTune`**.*
 
 ---
-[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/notebooks/welcome?src=https://github.com/JauharStartLearning/finetune-permenkes-test/main/NAMA_FILE.ipynb)
+[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/notebooks/welcome?src=https://github.com/JauharStartLearning/finetune-permenkes-test/blob/main/finetune-Qwen(Qlora)-Code.ipynb)
 
 ## 🚀 Cara Menggunakan Model (Inference)
 
