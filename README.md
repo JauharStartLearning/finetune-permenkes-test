@@ -80,42 +80,30 @@ Parameter teknis di bawah ini disetel untuk menyeimbangkan stabilitas pelatihan 
 📌 *Catatan: Hasil inferensi dari model setelah tahap fine-tuning ini dapat dilihat selengkapnya pada file **`Test-Result-FineTune`**.*
 
 ---
-[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/notebooks/welcome?src=https://github.com/JauharStartLearning/finetune-permenkes-test/blob/main/finetune-Qwen(Qlora)-Code.ipynb)
 
 ## 🚀 Cara Menggunakan Model (Inference)
 
-Anda bisa menjalankan model ini menggunakan **Unsloth** untuk kecepatan inference (2x lebih cepat):
+**Cara 1: Cara Termudah (Menggunakan Kaggle)**
+Jalankan kode langsung di browser Anda tanpa perlu menginstal apa pun di komputer lokal.
+[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/notebooks/welcome?src=https://github.com/JauharStartLearning/finetune-permenkes-test/blob/main/inference-before-after-ft.ipynb)
 
+**Cara 2: Jalankan di Komputer Lokal**
+Jika Anda ingin menjalankan model ini secara mandiri (offline) di komputer Anda, ikuti langkah-langkah berikut:
+
+1. Instal library yang dibutuhkan melalui terminal:
+```bash
+pip install gpt4all huggingface_hub
+```
+buat file inference.py
 ```python
-!pip install unsloth
-from unsloth import FastLanguageModel
-
-# Load model dan tokenizer
-model, tokenizer = FastLanguageModel.from_pretrained(
-    model_name = "Jauharul/qwen3-8b-lora-permenkes-7epoch",
-    max_seq_length = 2048, # Sesuaikan jika perlu
-    dtype = None,
-    load_in_4bit = True,
-)
-FastLanguageModel.for_inference(model)
-
-# Contoh inference
-inputs = tokenizer(
-    [
-        "Menurut Permenkes, apa saja standar pelayanan minimal rumah sakit?"
-    ], return_tensors = "pt").to("cuda")
-
-outputs = model.generate(**inputs, max_new_tokens = 128, use_cache = True)
-print(tokenizer.batch_decode(outputs))
-
 import os
 from huggingface_hub import hf_hub_download
 from gpt4all import GPT4All
 
-# 1. Tentukan model dari Hugging Face (Model Qwen ini sangat ringan untuk dicoba)
+# 1. Tentukan model dari Hugging Face
 repo_id = "Jauharul/qwen3-8b-lora-permenkes-7epoch-GGUF"
 nama_model = "qwen3-8b.Q4_K_M.gguf"
-lokasi_folder = "." # Titik berarti folder saat ini (E:\TestModel)
+lokasi_folder = "." # Titik berarti folder saat ini
 
 # 2. Unduh otomatis jika file model belum ada di komputer
 if not os.path.exists(nama_model):
@@ -134,3 +122,5 @@ print("Jawaban: ", end="")
 for token in model.generate(prompt, max_tokens=250, streaming=True):
     print(token, end="", flush=True)
 print("\n")
+```
+ketik di terminal python inference.py
