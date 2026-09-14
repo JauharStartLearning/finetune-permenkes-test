@@ -18,14 +18,12 @@ Penyusunan dataset dilakukan melalui dua tahapan utama untuk memastikan kualitas
 
   > Kode pembuatan data dapat dilihat di folder **Data-Generation-Code** 
 ---
-## 🛠️ Proses FineTune Model
-Pelatihan dioptimalkan menggunakan pustaka **Unsloth** untuk efisiensi VRAM dan kecepatan *training*.
 
 ## 📌 Informasi & Spesifikasi Model
 
 | Kategori | Keterangan |
 | :--- | :--- |
-| **Base Model** | Qwen 8B |
+| **Base Model** | unsloth/Qwen3-8B-unsloth-bnb-4bit |
 | **Repository** | [Jauharul/qwen3-8b-lora-permenkes-7epoch](https://huggingface.co/Jauharul/qwen3-8b-lora-permenkes-7epoch) |
 | **Framework** | Unsloth, TRL, Hugging Face `transformers`, `peft` |
 
@@ -82,6 +80,7 @@ Parameter teknis di bawah ini disetel untuk menyeimbangkan stabilitas pelatihan 
 📌 *Catatan: Hasil inferensi dari model setelah tahap fine-tuning ini dapat dilihat selengkapnya pada file **`Test-Result-FineTune`**.*
 
 ---
+[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/notebooks/welcome?src=https://github.com/JauharStartLearning/finetune-permenkes-test/main/NAMA_FILE.ipynb)
 
 ## 🚀 Cara Menggunakan Model (Inference)
 
@@ -108,3 +107,30 @@ inputs = tokenizer(
 
 outputs = model.generate(**inputs, max_new_tokens = 128, use_cache = True)
 print(tokenizer.batch_decode(outputs))
+
+import os
+from huggingface_hub import hf_hub_download
+from gpt4all import GPT4All
+
+# 1. Tentukan model dari Hugging Face (Model Qwen ini sangat ringan untuk dicoba)
+repo_id = "Jauharul/qwen3-8b-lora-permenkes-7epoch-GGUF"
+nama_model = "qwen3-8b.Q4_K_M.gguf"
+lokasi_folder = "." # Titik berarti folder saat ini (E:\TestModel)
+
+# 2. Unduh otomatis jika file model belum ada di komputer
+if not os.path.exists(nama_model):
+    print("Mengunduh model... (Hanya dilakukan 1x)")
+    hf_hub_download(repo_id=repo_id, filename=nama_model, local_dir=lokasi_folder)
+
+# 3. Muat model (allow_download=False mencegah error 404 server GPT4All)
+print("\nSedang memuat model ke memori...")
+model = GPT4All(model_name=nama_model, model_path=lokasi_folder, allow_download=False)
+
+# 4. Tes eksekusi
+prompt = "Mohon sebutkan jenis Dokumen Hukum yang termasuk dalam sistem pengelolaan JDIH Kemenkes."
+print(f"\nPertanyaan: {prompt}")
+print("Jawaban: ", end="")
+
+for token in model.generate(prompt, max_tokens=250, streaming=True):
+    print(token, end="", flush=True)
+print("\n")
