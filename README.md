@@ -74,7 +74,8 @@ Parameter teknis di bawah ini disetel untuk menyeimbangkan stabilitas pelatihan 
 > Terlihat bahwa model mulai menunjukkan tanda-tanda *overfitting* setelah **step ke-135** (sekitar epoch ke-4.2). Oleh karena itu, model dengan **checkpoint epoch ke-4** (Commit: `61d47d10cd6472db02f9913893877c266ecff3dd`) yang memiliki nilai *Eval Loss* terendah dipilih untuk menguji respons terhadap dataset *test*.
 
 <p align="center">
-  <img width="85%" alt="Checkpoint Details" src="https://github.com/user-attachments/assets/a0ce0d30-3d8b-47ba-b2bc-1f971ebd22b3" />
+  <img width="49%" alt="Checkpoint Details" src="https://github.com/user-attachments/assets/a0ce0d30-3d8b-47ba-b2bc-1f971ebd22b3" />
+  <img width="49%"alt="test result" src="https://github.com/user-attachments/assets/039292fe-49b2-4717-a084-af128b369226" />
 </p>
 
 📌 *Catatan: Hasil inferensi dari model setelah tahap fine-tuning ini dapat dilihat selengkapnya pada file **`Test-Result-FineTune`**.*
@@ -94,7 +95,7 @@ Jika Anda ingin menjalankan model ini secara mandiri (offline) di komputer Anda,
 ```bash
 pip install gpt4all huggingface_hub
 ```
-buat file inference.py
+2. buat file inference.py:
 ```python
 import os
 from huggingface_hub import hf_hub_download
@@ -123,4 +124,7 @@ for token in model.generate(prompt, max_tokens=250, streaming=True):
     print(token, end="", flush=True)
 print("\n")
 ```
-ketik di terminal python inference.py
+3. run file inference.py
+```bash
+python inference.py
+```
